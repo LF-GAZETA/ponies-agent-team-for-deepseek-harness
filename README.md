@@ -67,6 +67,7 @@ Pick one edition per session; the volumes always behave as **one logical contain
 
 ## Quick start / 快速开始
 
+**Caution!** Plugin `Agent Teams` is needed.
 1. **Choose an edition** (full for coverage, compact for a small context budget).
 2. **Read that edition's `RUN.md`** — it is the complete operator flow.
 3. Follow the four steps:
