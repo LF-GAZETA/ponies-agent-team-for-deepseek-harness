@@ -27,10 +27,10 @@ two tasks without breaking character or canon.
 
 | | |
 |---|---|
-| **Characters** | 70 (orders #01–#70) |
-| **Teams** | 7 (T0–T6, the only team naming used) |
+| **Characters** | 70 |
+| **Teams** | 7 |
 | **Team members** | 7 — one whole-team member per team |
-| **Overall Lead candidates** | 4 (original #01, #07, #08, #09) |
+| **Overall Lead candidates** | 4 |
 | **Language editions** | 13 |
 | **Language/dialect modes** | 20 (13 editions + 7 Chinese dialect/voice options) |
 | **Single entry** | `READ THIS TO USE-OV.md` |
