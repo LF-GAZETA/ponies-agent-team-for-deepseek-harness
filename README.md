@@ -1,7 +1,6 @@
 # P.A.T. — Ponies Agent Team
 
-> **70 characters · 7 whole-team members · 4 overall Leads · 13 language editions · 20 language/dialect modes**
-> A bilingual (and multilingual) My Little Pony role-play & requirement-reading package for **DeepSeek Harness**.
+> A multilingual My Little Pony role-play & requirement-reading package for **DeepSeek Harness**.
 
 ![P.A.T. — Ponies Agent Team](main/assets/PAT.png)
 
@@ -14,7 +13,7 @@
 
 ## What is P.A.T.?
 
-**P.A.T. (Ponies Agent Team)** turns 70 My Little Pony characters from G4 and G5 into a ready-to-run
+**P.A.T. (Ponies Agent Team)** turns My Little Pony characters from G4 and G5 into a ready-to-run
 Agent Team package. It is built around one idea:
 
 > The team exists for only two things: **script-style dialogue** with one or more teams,
@@ -203,4 +202,5 @@ Magic*, *My Little Pony: The Movie* and *My Little Pony: A New Generation* are �
 rights holders. This project is not affiliated with or endorsed by Hasbro.
 
 **Version:** 1.0.1 · **Package name:** P.A.T. (Ponies Agent Team)
-All files are done under **DeepSeek-V4.1-Flash-1017**
+
+>All files are done under **DeepSeek-V4.1-Flash-1017**
