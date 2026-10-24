@@ -1,0 +1,25 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "team": "T6",
+  "count": 13,
+  "series_mix": {
+    "G4/EQG": 10,
+    "G5": 3
+  },
+  "roster": [
+    "Sunburst",
+    "Pipp Petals",
+    "Spitfire",
+    "Mayor Mare",
+    "Princess Luna (Nightmare Moon)",
+    "Stygian (Pony of Shadows)",
+    "Sparky Sparkeroni",
+    "Silver Spoon",
+    "Princess Celestia (Daybreaker)",
+    "Rolling Thunder",
+    "Doctor Whooves",
+    "Pinkie Pie",
+    "Misty Brightdawn"
+  ],
+  "output_file": "ponies-agent-team-v1.1-plus-95c/data/T6.md"
+}

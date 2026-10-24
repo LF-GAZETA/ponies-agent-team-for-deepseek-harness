@@ -1,0 +1,26 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "team": "T2",
+  "count": 14,
+  "series_mix": {
+    "G4/EQG": 10,
+    "G5": 4
+  },
+  "roster": [
+    "Discord",
+    "Rainbowshine",
+    "Flash Sentry",
+    "Zipp Storm",
+    "Aloe",
+    "Diamond Tiara",
+    "Izzy Moonbow",
+    "Blaize Skysong",
+    "Smolder",
+    "Juniper Montage",
+    "Short Fuse",
+    "Opalina Acrana",
+    "Suri Polomare",
+    "Princess Cadance"
+  ],
+  "output_file": "ponies-agent-team-v1.1-plus-95c/data/T2.md"
+}

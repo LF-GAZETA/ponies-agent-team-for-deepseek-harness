@@ -1,0 +1,171 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "generated_at": "2026-10-24T20:02:53+08:00",
+  "random_source": "Python random.SystemRandom() (unseeded => not reproducible by design)",
+  "character_count": 95,
+  "series_counts": {
+    "G4/EQG": 84,
+    "G5": 11
+  },
+  "team_count": 7,
+  "teams": {
+    "T0": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 14,
+        "G5": 0
+      },
+      "members": [
+        "Spike",
+        "Princess Flurry Heart",
+        "Rainbow Dash",
+        "Yona",
+        "Ocellus",
+        "Rarity",
+        "Granny Smith",
+        "Gallus",
+        "Lotus Blossom",
+        "King Sombra",
+        "Derpy Hooves",
+        "Apple Bloom",
+        "Fluttershy",
+        "Adagio Dazzle"
+      ]
+    },
+    "T1": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 12,
+        "G5": 2
+      },
+      "members": [
+        "Sprout Cloverleaf",
+        "Octavia Melody",
+        "Cloudpuff",
+        "Luster Dawn",
+        "Braeburn",
+        "Thorax",
+        "Vinyl Scratch",
+        "Coco Pommel",
+        "Applejack",
+        "Glorisa Daisy",
+        "Daring Do",
+        "Maud Pie",
+        "Cheerilee",
+        "Prince Blueblood"
+      ]
+    },
+    "T2": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 10,
+        "G5": 4
+      },
+      "members": [
+        "Discord",
+        "Rainbowshine",
+        "Flash Sentry",
+        "Zipp Storm",
+        "Aloe",
+        "Diamond Tiara",
+        "Izzy Moonbow",
+        "Blaize Skysong",
+        "Smolder",
+        "Juniper Montage",
+        "Short Fuse",
+        "Opalina Acrana",
+        "Suri Polomare",
+        "Princess Cadance"
+      ]
+    },
+    "T3": {
+      "count": 13,
+      "series_mix": {
+        "G4/EQG": 12,
+        "G5": 1
+      },
+      "members": [
+        "Soarin'",
+        "Bon Bon",
+        "Shoeshine",
+        "Babs Seed",
+        "Lyra Heartstrings",
+        "Lightning Dust",
+        "Night Light",
+        "Hitch Trailblazer",
+        "Scootaloo",
+        "Pear Butter",
+        "Sci-Twi (Midnight Sparkle)",
+        "Nurse Redheart",
+        "Shining Armor"
+      ]
+    },
+    "T4": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 13,
+        "G5": 1
+      },
+      "members": [
+        "Wallflower Blush",
+        "Moondancer",
+        "Sonata Dusk",
+        "Starlight Glimmer",
+        "Sunny Starscout",
+        "Star Swirl the Bearded",
+        "Twilight Velvet",
+        "Princess Ember",
+        "Aria Blaze",
+        "Cozy Glow",
+        "Sweetie Belle",
+        "Marble Pie",
+        "Radiant Hope",
+        "Zecora"
+      ]
+    },
+    "T5": {
+      "count": 13,
+      "series_mix": {
+        "G4/EQG": 13,
+        "G5": 0
+      },
+      "members": [
+        "Trixie",
+        "Twilight Sparkle",
+        "Limestone Pie",
+        "Tempest Shadow (Fizzlepop Berrytwist)",
+        "Bright Mac",
+        "Lemon Hearts",
+        "Minuette",
+        "Big Macintosh",
+        "Sunset Shimmer",
+        "Silverstream",
+        "Sugar Belle",
+        "Lord Tirek",
+        "Queen Chrysalis"
+      ]
+    },
+    "T6": {
+      "count": 13,
+      "series_mix": {
+        "G4/EQG": 10,
+        "G5": 3
+      },
+      "members": [
+        "Sunburst",
+        "Pipp Petals",
+        "Spitfire",
+        "Mayor Mare",
+        "Princess Luna (Nightmare Moon)",
+        "Stygian (Pony of Shadows)",
+        "Sparky Sparkeroni",
+        "Silver Spoon",
+        "Princess Celestia (Daybreaker)",
+        "Rolling Thunder",
+        "Doctor Whooves",
+        "Pinkie Pie",
+        "Misty Brightdawn"
+      ]
+    }
+  }
+}

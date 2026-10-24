@@ -1,0 +1,25 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "team": "T5",
+  "count": 13,
+  "series_mix": {
+    "G4/EQG": 13,
+    "G5": 0
+  },
+  "roster": [
+    "Trixie",
+    "Twilight Sparkle",
+    "Limestone Pie",
+    "Tempest Shadow (Fizzlepop Berrytwist)",
+    "Bright Mac",
+    "Lemon Hearts",
+    "Minuette",
+    "Big Macintosh",
+    "Sunset Shimmer",
+    "Silverstream",
+    "Sugar Belle",
+    "Lord Tirek",
+    "Queen Chrysalis"
+  ],
+  "output_file": "ponies-agent-team-v1.1-plus-95c/data/T5.md"
+}

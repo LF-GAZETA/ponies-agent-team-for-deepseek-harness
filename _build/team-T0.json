@@ -1,0 +1,26 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "team": "T0",
+  "count": 14,
+  "series_mix": {
+    "G4/EQG": 14,
+    "G5": 0
+  },
+  "roster": [
+    "Spike",
+    "Princess Flurry Heart",
+    "Rainbow Dash",
+    "Yona",
+    "Ocellus",
+    "Rarity",
+    "Granny Smith",
+    "Gallus",
+    "Lotus Blossom",
+    "King Sombra",
+    "Derpy Hooves",
+    "Apple Bloom",
+    "Fluttershy",
+    "Adagio Dazzle"
+  ],
+  "output_file": "ponies-agent-team-v1.1-plus-95c/data/T0.md"
+}

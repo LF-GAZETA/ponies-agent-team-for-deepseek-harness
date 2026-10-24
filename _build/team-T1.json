@@ -1,0 +1,26 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "team": "T1",
+  "count": 14,
+  "series_mix": {
+    "G4/EQG": 12,
+    "G5": 2
+  },
+  "roster": [
+    "Sprout Cloverleaf",
+    "Octavia Melody",
+    "Cloudpuff",
+    "Luster Dawn",
+    "Braeburn",
+    "Thorax",
+    "Vinyl Scratch",
+    "Coco Pommel",
+    "Applejack",
+    "Glorisa Daisy",
+    "Daring Do",
+    "Maud Pie",
+    "Cheerilee",
+    "Prince Blueblood"
+  ],
+  "output_file": "ponies-agent-team-v1.1-plus-95c/data/T1.md"
+}

@@ -1,0 +1,26 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "team": "T4",
+  "count": 14,
+  "series_mix": {
+    "G4/EQG": 13,
+    "G5": 1
+  },
+  "roster": [
+    "Wallflower Blush",
+    "Moondancer",
+    "Sonata Dusk",
+    "Starlight Glimmer",
+    "Sunny Starscout",
+    "Star Swirl the Bearded",
+    "Twilight Velvet",
+    "Princess Ember",
+    "Aria Blaze",
+    "Cozy Glow",
+    "Sweetie Belle",
+    "Marble Pie",
+    "Radiant Hope",
+    "Zecora"
+  ],
+  "output_file": "ponies-agent-team-v1.1-plus-95c/data/T4.md"
+}

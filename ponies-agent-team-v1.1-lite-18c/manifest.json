@@ -1,0 +1,171 @@
+{
+  "package": "ponies-agent-team-v1.1-lite-18c",
+  "project": "Ponies Agent Team",
+  "abbreviation": "P.A.T.",
+  "version": "1.1",
+  "variant": "18c",
+  "edition": "lite",
+  "description": "Ponies Agent Team (P.A.T.) lite edition — 18 complete MLP character profiles split into volume teams for AI roleplay sessions.",
+  "generated_by": {
+    "model": "deepseek-flash",
+    "framework": "DeepSeek Harness",
+    "generated_at": "2026-10-24 21:15:11 +0800"
+  },
+  "character_count": 18,
+  "series_counts": {
+    "G4/EQG": 12,
+    "G5": 6
+  },
+  "team_count": 2,
+  "base_language": "American English",
+  "language_patches": [
+    {
+      "id": 1,
+      "label": "简体中文 · 普通话",
+      "group": "Simplified Chinese",
+      "notes": "Simplified script, Standard Mandarin"
+    },
+    {
+      "id": 2,
+      "label": "繁体中文 · 港澳粤语",
+      "group": "Traditional Chinese",
+      "notes": "Traditional script, Cantonese (Hong Kong / Macau) dialect flavour"
+    },
+    {
+      "id": 3,
+      "label": "繁体中文 · 台湾话",
+      "group": "Traditional Chinese",
+      "notes": "Traditional script, Taiwanese Mandarin dialect flavour"
+    },
+    {
+      "id": 4,
+      "label": "英语 · 美式英语",
+      "group": "English",
+      "notes": "American English — master / base language"
+    },
+    {
+      "id": 5,
+      "label": "法语",
+      "group": "Other",
+      "notes": "French"
+    },
+    {
+      "id": 6,
+      "label": "德语",
+      "group": "Other",
+      "notes": "German"
+    },
+    {
+      "id": 7,
+      "label": "意大利语",
+      "group": "Other",
+      "notes": "Italian"
+    },
+    {
+      "id": 8,
+      "label": "葡萄牙语",
+      "group": "Other",
+      "notes": "Portuguese"
+    },
+    {
+      "id": 9,
+      "label": "日语",
+      "group": "Other",
+      "notes": "Japanese"
+    }
+  ],
+  "language_patch_count": 9,
+  "leads": [
+    "Twilight Sparkle",
+    "Sunny Starscout",
+    "Sunset Shimmer",
+    "Princess Celestia (Daybreaker)",
+    "Princess Luna (Nightmare Moon)"
+  ],
+  "lead_count": 5,
+  "lead_spelling_note": "Canonical English spellings used; original request wrote 'Twilght Sparkle' (Twilight Sparkle) and 'Opalina Acrana' (Opaline Arcana).",
+  "random_assignment": {
+    "method": "random.SystemRandom() shuffle, unseeded (not reproducible by design)",
+    "note": "Team membership is fully random; teams are storage volumes, not canon groups."
+  },
+  "teams": {
+    "T0": {
+      "count": 9,
+      "series_mix": {
+        "G4/EQG": 4,
+        "G5": 5
+      },
+      "data_file": "data/T0.md",
+      "members": [
+        "Trixie",
+        "Zipp Storm",
+        "Spike",
+        "Misty Brightdawn",
+        "Rainbow Dash",
+        "Hitch Trailblazer",
+        "Sunny Starscout",
+        "Princess Celestia (Daybreaker)",
+        "Pipp Petals"
+      ]
+    },
+    "T1": {
+      "count": 9,
+      "series_mix": {
+        "G4/EQG": 8,
+        "G5": 1
+      },
+      "data_file": "data/T1.md",
+      "members": [
+        "Fluttershy",
+        "Rarity",
+        "Princess Luna (Nightmare Moon)",
+        "Twilight Sparkle",
+        "Izzy Moonbow",
+        "Sunset Shimmer",
+        "Starlight Glimmer",
+        "Pinkie Pie",
+        "Applejack"
+      ]
+    }
+  },
+  "data_format_fields": [
+    "Series/Continuity",
+    "Species/Kind",
+    "Gender",
+    "Age/Stage",
+    "Residence",
+    "Occupation/Role/Affiliation",
+    "Appearance",
+    "Personality",
+    "Likes",
+    "Dislikes",
+    "Fears/Weaknesses",
+    "Skills/Abilities",
+    "Family & Relationships",
+    "Background/Biography",
+    "Speech Style/Catchphrases",
+    "Notable Quotes",
+    "Trivia/Notes"
+  ],
+  "files": {
+    "README.md": "87310dcd006949ca5df48fd792b8e311eb2f90b173ef8cbf6c7829a794da2476",
+    "RUN.md": "4fd8191f28d7a4dfe4dabf8e193c0680e6120c479cc5313270e2818390a3ea0f",
+    "TEAMS.md": "ec7e0ad6fa9c7c51e1e9bff6eebdee405538e471c09ecf4bf1349c79c5824e38",
+    "assets/cover.png": "b89b3fb4ef35b1203c645be32e76166ffecbf7f32c0194e130340d3ff464d0d8",
+    "data/T0.md": "aa184796d4dff36d580643ed8ae5939ae62734f790c8a107f044dbafdc776a84",
+    "data/T1.md": "a05c1f84f2a85e8db792fd5243b6eb7cfd893dcdeefba836737dc2ae0a1c3288"
+  },
+  "files_checksum_algorithm": "sha256",
+  "run_file": "RUN.md",
+  "readme": "README.md",
+  "teams_file": "TEAMS.md",
+  "verification_file": "VERIFICATION.md",
+  "notes": [
+    "Project name: Ponies Agent Team, abbreviated P.A.T. (packages: ponies-agent-team-v1.1-*).",
+    "RUN.md is the operator guide: language patch -> global Lead -> create volume members and verify -> brief close.",
+    "Never use the DSH Ask-Questions tool in the RUN.md flow; all prompts are plain chat text.",
+    "Language patches are runtime translations on top of the American-English master data; data files are never translated in place."
+  ],
+  "derived_from": "ponies-agent-team-v1.1-plus-95c",
+  "derived_from_note": "Character profiles are copied verbatim from the plus package data volumes."
+}

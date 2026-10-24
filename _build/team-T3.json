@@ -1,0 +1,25 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "team": "T3",
+  "count": 13,
+  "series_mix": {
+    "G4/EQG": 12,
+    "G5": 1
+  },
+  "roster": [
+    "Soarin'",
+    "Bon Bon",
+    "Shoeshine",
+    "Babs Seed",
+    "Lyra Heartstrings",
+    "Lightning Dust",
+    "Night Light",
+    "Hitch Trailblazer",
+    "Scootaloo",
+    "Pear Butter",
+    "Sci-Twi (Midnight Sparkle)",
+    "Nurse Redheart",
+    "Shining Armor"
+  ],
+  "output_file": "ponies-agent-team-v1.1-plus-95c/data/T3.md"
+}

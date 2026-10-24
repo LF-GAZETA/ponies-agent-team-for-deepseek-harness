@@ -1,0 +1,50 @@
+{
+  "package": "ponies-agent-team-v1.1-lite-18c",
+  "generated_at": "2026-10-24T20:02:53+08:00",
+  "derived_from": "ponies-agent-team-v1.1-plus-95c (subset of its 95 characters)",
+  "random_source": "Python random.SystemRandom() (unseeded => not reproducible by design)",
+  "character_count": 18,
+  "series_counts": {
+    "G4/EQG": 12,
+    "G5": 6
+  },
+  "team_count": 2,
+  "teams": {
+    "T0": {
+      "count": 9,
+      "series_mix": {
+        "G4/EQG": 4,
+        "G5": 5
+      },
+      "members": [
+        "Trixie",
+        "Zipp Storm",
+        "Spike",
+        "Misty Brightdawn",
+        "Rainbow Dash",
+        "Hitch Trailblazer",
+        "Sunny Starscout",
+        "Princess Celestia (Daybreaker)",
+        "Pipp Petals"
+      ]
+    },
+    "T1": {
+      "count": 9,
+      "series_mix": {
+        "G4/EQG": 8,
+        "G5": 1
+      },
+      "members": [
+        "Fluttershy",
+        "Rarity",
+        "Princess Luna (Nightmare Moon)",
+        "Twilight Sparkle",
+        "Izzy Moonbow",
+        "Sunset Shimmer",
+        "Starlight Glimmer",
+        "Pinkie Pie",
+        "Applejack"
+      ]
+    }
+  }
+}
