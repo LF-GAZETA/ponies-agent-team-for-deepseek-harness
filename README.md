@@ -204,3 +204,4 @@ Magic*, *My Little Pony: The Movie* and *My Little Pony: A New Generation* are Â
 rights holders. This project is not affiliated with or endorsed by Hasbro.
 
 **Version:** 1.0.1 Â· **Package name:** P.A.T. (Ponies Agent Team)
+All files are done under **DeepSeek-V4.1-Flash-1017**
