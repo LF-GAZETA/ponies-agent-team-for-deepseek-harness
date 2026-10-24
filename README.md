@@ -66,6 +66,7 @@ Script-style dialogue  or  read user requirements/files
 
 ## Quick start
 
+Plugin need: **Agent Teams**
 1. **Clone / open the repository** in DeepSeek Harness.
 2. Give the AI **only** [`READ THIS TO USE-OV.md`](READ%20THIS%20TO%20USE-OV.md).
 3. The AI asks the language question. **Type a number (1–13) in the console** — the built-in
