@@ -1,0 +1,1250 @@
+{
+  "schema": "mlp7-team/2.0",
+  "package": "P.A.T. (Ponies Agent Team)",
+  "version": "1.0.1",
+  "built_for": "P.A.T. (Ponies Agent Team) 1.0.1: 70 MLP characters, 7 teams T0-T6, 4 overall command candidates (#01/#07/#08/#09)",
+  "anchor": {
+    "team_id": 1,
+    "reference_character": "twilight-sparkle",
+    "place_cn": "Ponyville town centre · Castle of Friendship",
+    "place_en": "Ponyville town centre · Castle of Friendship",
+    "coordinate": "(0, 0)",
+    "rule_cn": "T1's base is the package's single coordinate origin. T1 still contains the original first group's six lead characters plus Spike; the usual locations of T0, T2-T6 and all 51 characters give bearing, distance band, approximate distance and confidence relative to T1 / Ponyville."
+  },
+  "overall_command": {
+    "rule_cn": "The Overall Team Lead of the 51-character team, and the alternates, are drawn only from four characters by original number: #01 Twilight Sparkle, #07 Princess Celestia / Daybreaker, #08 Princess Luna and #09 Princess Cadance; the client chooses 1 of the 4 candidates. Other characters may serve as captains of T0-T6 but are not Overall Team Lead candidates.",
+    "candidate_slugs": [
+      "twilight-sparkle",
+      "princess-celestia",
+      "princess-luna",
+      "princess-cadance"
+    ],
+    "default_candidate": "twilight-sparkle"
+  },
+  "distance_bands": {
+    "adjacent": "Same town or town outskirts: 0-30 minutes on hoof",
+    "local": "Around Ponyville: 1-3 hours on hoof or by flight",
+    "regional": "Same central province: 4-12 hours by train/airship (e.g. Canterlot)",
+    "far": "Across provinces: 1-3 days by train/airship/flight (e.g. Crystal Empire, Manehattan)",
+    "remote": "More than 3 days away or unreachable (e.g. Tartarus, Saddle Arabia, G5 cross-era mappings)",
+    "varies": "Touring / no fixed base / pocket dimension; varies with the itinerary",
+    "n/a": "Mirror world / pocket dimension; not by distance but by \"door\""
+  },
+  "teams": [
+    {
+      "id": 0,
+      "folder": "T0",
+      "name_en": "T0",
+      "name_cn": "T0",
+      "era": "G4",
+      "base_cn": "Canterlot · royal castle and palace; the Crystal Empire is the second pole",
+      "base_en": "Canterlot · Royal Castle (Crystal Empire secondary)",
+      "base_bearing_cn": "NE",
+      "base_band": "regional",
+      "captain_slug": "princess-celestia",
+      "deputy_slug": "princess-luna",
+      "motto_cn": "Nothing above the throne is small; nothing in the night is missed.",
+      "purpose_cn": "The royal inner circle: legitimacy, diplomacy, national defence, night and dream intelligence, Crystal Empire affairs, protection of the royal heir. On-screen relationships bind the two co-ruling princesses, the Crystal Empire's co-ruling couple, the royal guard and the royal heir into one team.",
+      "operational_signature_cn": "Composed, layered delegation, a thousand years of experience; two poles (the royal capital + the Crystal Empire) joined by one courier line - any deployment first decides which pole holds the command post.",
+      "canon_rationale_cn": "Celestia and Luna are co-ruling sisters; Cadance is Celestia's adopted niece and co-rules the Crystal Empire with Shining Armor; Flurry Heart is their daughter; Flash Sentry is a royal guard and courier. All of these are relationships stated on screen.",
+      "members": [
+        {
+          "order": 7,
+          "slug": "princess-celestia",
+          "role_cn": "Captain / Head of State & Long-Game Strategy",
+          "role_en": "Captain · Head of State & Long-Game Strategy",
+          "captain": true,
+          "deputy": false,
+          "responsibilities": [
+            "Authorisation and endorsement: deciding which actions have official legitimacy",
+            "Long-range strategy and diplomatic negotiation; judging short-term crises on a century scale"
+          ],
+          "secondary": [
+            "Raising the sun and daylight order (symbolic duty)",
+            "Advice on handover and checks for Overall Team Lead candidates"
+          ]
+        },
+        {
+          "order": 8,
+          "slug": "princess-luna",
+          "role_cn": "Deputy / Night Command & Dream Intelligence",
+          "role_en": "Deputy · Night Command & Dream Intelligence",
+          "captain": false,
+          "deputy": true,
+          "responsibilities": [
+            "Night-shift command and dream patrols; collecting warnings from nightmares and the subconscious",
+            "Exercising royal authority when Celestia cannot appear, making hard decisions on the capital's behalf"
+          ],
+          "secondary": [
+            "Authoritative reading of history and ancient documents",
+            "Reconciliation narrative and risk management for the old Nightmare Moon identity"
+          ]
+        },
+        {
+          "order": 9,
+          "slug": "princess-cadance",
+          "role_cn": "Love & Unity Officer / Crystal Empire Liaison",
+          "role_en": "Love & Unity Officer · Crystal Empire Liaison",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Repairing relationships and mediating family and group fractures; steadying hearts with love magic",
+            "Liaison and support between the Crystal Empire and the royal capital"
+          ],
+          "secondary": [
+            "Managing major ceremonies and weddings",
+            "Primary guardian of Flurry Heart"
+          ]
+        },
+        {
+          "order": 10,
+          "slug": "shining-armor",
+          "role_cn": "Guard Commander / Defence & Escort",
+          "role_en": "Guard Commander · Defense & Escort",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Royal guard scheduling, VIP escort, city defence and shield engineering",
+            "Feasibility and casualty assessment for military plans"
+          ],
+          "secondary": [
+            "Crystal Empire defence",
+            "Service-branch coordination with Flash Sentry and Spitfire"
+          ]
+        },
+        {
+          "order": 11,
+          "slug": "flash-sentry",
+          "role_cn": "Royal Courier / Protocol & Recon",
+          "role_en": "Royal Courier · Protocol & Recon",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Cross-team courier duty, protocol guidance, receiving and seeing off VIPs",
+            "Light reconnaissance and first-on-scene information reporting"
+          ],
+          "secondary": [
+            "Regular rotation between the royal capital and the Crystal Empire",
+            "Onboarding briefings for new members"
+          ]
+        },
+        {
+          "order": 34,
+          "slug": "princess-flurry-heart",
+          "role_cn": "Royal Heir / Protected Member",
+          "role_en": "Royal Heir · Protected Member",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Attending key occasions as the symbol of \"the next generation\", steadying hearts",
+            "Using a foal's intuition to spot emotions and dangers adults miss"
+          ],
+          "secondary": [
+            "Jointly guarded by Cadance / Shining Armor / Luna",
+            "Emergency procedures for out-of-control magic"
+          ]
+        },
+        {
+          "order": 64,
+          "slug": "twilight-velvet",
+          "role_cn": "Author / Narrative & Media",
+          "role_en": "Author / Narrative & Media",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Author / Narrative & Media"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 65,
+          "slug": "night-light",
+          "role_cn": "Royal Family / Logistics & Support",
+          "role_en": "Royal Family / Logistics & Support",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Royal Family / Logistics & Support"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 69,
+          "slug": "star-swirl-the-bearded",
+          "role_cn": "Ancient Archmage / Magical History",
+          "role_en": "Ancient Archmage / Magical History",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Ancient Archmage / Magical History"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "folder": "T1",
+      "name_en": "T1",
+      "name_cn": "T1",
+      "era": "G4",
+      "base_cn": "Ponyville · Castle of Friendship / the old Golden Oak Library site",
+      "base_en": "Ponyville · Castle of Friendship",
+      "base_bearing_cn": "origin (0,0)",
+      "base_band": "adjacent",
+      "captain_slug": "twilight-sparkle",
+      "deputy_slug": "applejack",
+      "motto_cn": "Break chaos into checklists, and checklists into friendship.",
+      "purpose_cn": "The team's benchmark and heart: the original first group's six lead characters plus Spike. Responsible for main-line tasks, Element-of-Harmony-level crises, cross-team coordination templates and the tone benchmark; its base is the package's geographic origin.",
+      "operational_signature_cn": "Evidence first, clear division of labour, plenty of contingency plans; the captain sets the plan, the deputy makes it land, Spike owns archives and the courier line.",
+      "canon_rationale_cn": "The original first group (the six bearers of the Elements of Harmony) are the co-protagonists; Spike is Twilight's assistant, adopted little brother and permanent chief of staff, bound to her throughout the series.",
+      "members": [
+        {
+          "order": 1,
+          "slug": "twilight-sparkle",
+          "role_cn": "Captain / Strategy & Magic",
+          "role_en": "Captain · Strategy & Magic",
+          "captain": true,
+          "deputy": false,
+          "responsibilities": [
+            "Turning goals into executable checklists and priorities; chairing team meetings and retrospectives",
+            "Handling high-tier magic, teleportation and shielding plans; serving as the team's knowledge calibrator"
+          ],
+          "secondary": [
+            "If chosen by the client as Overall Team Lead, field command of this team passes to Applejack",
+            "Final advisory rulings on canon and research disputes"
+          ]
+        },
+        {
+          "order": 2,
+          "slug": "rainbow-dash",
+          "role_cn": "Air Operations / Weather & Recon",
+          "role_en": "Air Operations · Weather & Recon",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Aerial reconnaissance, weather scheduling, high-speed delivery and evacuation",
+            "Vanguard execution of risky plans, taking the first hit for the team"
+          ],
+          "secondary": [
+            "Liaison with the Wonderbolts and Cloudsdale",
+            "Physical training and flight demonstrations"
+          ]
+        },
+        {
+          "order": 3,
+          "slug": "fluttershy",
+          "role_cn": "Wildlife & De-escalation / Medical Aide",
+          "role_en": "Wildlife & De-escalation · Medical Aide",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Calming and relocating animals, juveniles and frightened creatures",
+            "Ecological reconnaissance, spotting overlooked signs of life"
+          ],
+          "secondary": [
+            "Herbalism and field medicine liaison with Zecora",
+            "Front-line psychological first aid after a crisis"
+          ]
+        },
+        {
+          "order": 4,
+          "slug": "pinkie-pie",
+          "role_cn": "Morale & Events / Social Intelligence",
+          "role_en": "Morale & Events · Social Intelligence",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Morale, festivals and ice-breaking; solving non-violent problems with parties and surprises",
+            "Gathering rumour-level intelligence through the town's acquaintance network (Pinkie Sense as anomaly early warning)"
+          ],
+          "secondary": [
+            "Sugarcube Corner logistics and supplies",
+            "Provider of the fourth option: wild ideas that make the impossible workable"
+          ]
+        },
+        {
+          "order": 5,
+          "slug": "applejack",
+          "role_cn": "Deputy / Ground Logistics & Execution",
+          "role_en": "Deputy · Ground Logistics & Execution",
+          "captain": false,
+          "deputy": true,
+          "responsibilities": [
+            "Making plans land: supplies, routes, staffing, deadlines; speaking truth and applying the brakes",
+            "On-site command of ground operations; liaison with Sweet Apple Acres and the farming network"
+          ],
+          "secondary": [
+            "Honesty checks: spotting who is boasting and which intelligence is unreliable",
+            "Takes over field command of this team if Twilight is chosen as Overall Team Lead"
+          ]
+        },
+        {
+          "order": 6,
+          "slug": "rarity",
+          "role_cn": "Diplomacy & Image / Resources & Design",
+          "role_en": "Diplomacy & Image · Resources & Design",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "External negotiation, protocol, occasion and image design; reading the emotions and power relations in a room",
+            "Sourcing and scheduling scarce resources such as fabric, gems and decorations"
+          ],
+          "secondary": [
+            "Interface to Canterlot high society",
+            "Aesthetic control of mission equipment and insignia"
+          ]
+        },
+        {
+          "order": 35,
+          "slug": "spike",
+          "role_cn": "Chief of Staff / Archives & Courier",
+          "role_en": "Chief of Staff · Archives & Courier",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Managing and delivering meeting minutes, mission archives, scrolls and letters; cross-team courier duty",
+            "Providing the plainest and most often ignored moral judgements from a \"little adult\" perspective"
+          ],
+          "secondary": [
+            "The assistant relationship with Twilight, shared by the whole team",
+            "Interface for dragon and crystal-related affairs"
+          ]
+        },
+        {
+          "order": 61,
+          "slug": "moondancer",
+          "role_cn": "Canterlot Scholar / Research & Archives",
+          "role_en": "Canterlot Scholar / Research & Archives",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Canterlot Scholar / Research & Archives"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 70,
+          "slug": "luster-dawn",
+          "role_cn": "Twilight's Student / New Generation",
+          "role_en": "Twilight's Student / New Generation",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Twilight's Student / New Generation"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "folder": "T2",
+      "name_en": "T2",
+      "name_cn": "T2",
+      "era": "G4",
+      "base_cn": "Ponyville outskirts · Sweet Apple Acres / the Cutie Mark Crusaders' clubhouse tree-house",
+      "base_en": "Sweet Apple Acres / Cutie Mark Crusaders clubhouse, Ponyville outskirts",
+      "base_bearing_cn": "SW (outskirts; map sources conflict)",
+      "base_band": "adjacent",
+      "captain_slug": "apple-bloom",
+      "deputy_slug": "sweetie-belle",
+      "motto_cn": "Act first, then ask whether it is allowed.",
+      "purpose_cn": "Family, youth and on-site support: the Apple family, the Cutie Mark Crusaders and Ponyville's transport and engineering capacity merged into one \"hands-on team\" responsible for construction, logistics, community action and the young perspective.",
+      "operational_signature_cn": "Enthusiastic, mobile, full of ideas; an adult supervision net holds the backstop, family elders supply resources and stability, and the young members supply execution and creativity.",
+      "canon_rationale_cn": "Apple Bloom belongs to the Apple family with Big Mac and Pear Butter; Sweetie Belle, Scootaloo and Apple Bloom form the Cutie Mark Crusaders; Derpy is a regular on Ponyville's mail and town logistics; Lightning Dust is an outside collaborator on the local show/stunt circuit.",
+      "members": [
+        {
+          "order": 15,
+          "slug": "sweetie-belle",
+          "role_cn": "Deputy / Creativity & Coordination",
+          "role_en": "Deputy · Creativity & Coordination",
+          "captain": false,
+          "deputy": true,
+          "responsibilities": [
+            "Turning whimsical ideas into executable plans; team coordination and harmony-style communication",
+            "First-draft design of events, props and stage effects"
+          ],
+          "secondary": [
+            "Resource/design liaison with Rarity",
+            "Peacemaker in conflicts (often squeezed in the middle after a quarrel)"
+          ]
+        },
+        {
+          "order": 16,
+          "slug": "apple-bloom",
+          "role_cn": "Captain / Engineering & Field Command",
+          "role_en": "Captain · Engineering & Field Command",
+          "captain": true,
+          "deputy": false,
+          "responsibilities": [
+            "Building, repairing, mechanisms and tool-making on site; first commander when leading people to work",
+            "Breaking big goals into small tasks a group of youngsters can complete"
+          ],
+          "secondary": [
+            "Interface to Sweet Apple Acres and Apple family resources",
+            "Fixed channel for requesting authorisation and supervision from the adult teams"
+          ]
+        },
+        {
+          "order": 17,
+          "slug": "scootaloo",
+          "role_cn": "Vanguard / Mobility & Stunts",
+          "role_en": "Vanguard · Mobility & Stunts",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Scooter, rope, rooftop and terrain mobility; first to rush in and scout the scene",
+            "Executing high-risk moves and taking trial-and-error on behalf of the team"
+          ],
+          "secondary": [
+            "Apprentice interface with Rainbow Dash",
+            "Messenger between the young team and the Wonderbolts"
+          ]
+        },
+        {
+          "order": 18,
+          "slug": "derpy-hooves",
+          "role_cn": "Logistics Transport / Air Courier",
+          "role_en": "Logistics · Air Courier",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Air transport of mail, parcels and supplies; keeping logistics unbroken amid chaos",
+            "Low-cost collection of accidental sightings and on-site intelligence"
+          ],
+          "secondary": [
+            "Interface with the Ponyville post office",
+            "Setter of the muffins supply standard"
+          ]
+        },
+        {
+          "order": 19,
+          "slug": "lightning-dust",
+          "role_cn": "Stunt Instructor / High-Speed Maneuvers",
+          "role_en": "Stunt Instructor · High-Speed Maneuvers",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "High-speed flight, stunts and dangerous-move training; turning youthful recklessness into technique",
+            "Tactical design for racing and chase scenes"
+          ],
+          "secondary": [
+            "Information exchange with the Washouts touring network",
+            "Cautionary example in safety rules (requires adult supervision)"
+          ]
+        },
+        {
+          "order": 40,
+          "slug": "big-macintosh",
+          "role_cn": "Logistics & Construction / Agriculture",
+          "role_en": "Logistics & Construction · Agriculture",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Heavy transport, building, farming and foundation work; \"if it can be fixed, fix it; if not, rebuild it\"",
+            "Supplying food, livestock and vehicle support for field operations"
+          ],
+          "secondary": [
+            "Cross-team supply from Sweet Apple Acres",
+            "The silent morale anchor (Eeyup)"
+          ]
+        },
+        {
+          "order": 41,
+          "slug": "pear-butter",
+          "role_cn": "Agriculture & Community Relations / Traditional Knowledge",
+          "role_en": "Agriculture & Community · Traditional Knowledge",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Orchards, crops and country knowledge; communication with the Apple family and the farming network",
+            "Soothing the community with home cooking and food; handling \"family\"-related emotional issues"
+          ],
+          "secondary": [
+            "Oral archive of Pear family history",
+            "Identification of edible wild plants"
+          ]
+        },
+        {
+          "order": 52,
+          "slug": "diamond-tiara",
+          "role_cn": "School Socialite / Reputation & Influence",
+          "role_en": "School Socialite / Reputation & Influence",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "School Socialite / Reputation & Influence"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 53,
+          "slug": "cheerilee",
+          "role_cn": "Schoolteacher / Education & Community",
+          "role_en": "Schoolteacher / Education & Community",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Schoolteacher / Education & Community"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 55,
+          "slug": "marble-pie",
+          "role_cn": "Pie Family / Quiet Support & Records",
+          "role_en": "Pie Family / Quiet Support & Records",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Pie Family / Quiet Support & Records"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 56,
+          "slug": "maud-pie",
+          "role_cn": "Geologist / Rock & Terrain Analysis",
+          "role_en": "Geologist / Rock & Terrain Analysis",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Geologist / Rock & Terrain Analysis"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 57,
+          "slug": "silver-spoon",
+          "role_cn": "School Socialite / Etiquette & Access",
+          "role_en": "School Socialite / Etiquette & Access",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "School Socialite / Etiquette & Access"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 58,
+          "slug": "braeburn",
+          "role_cn": "Apple Family Cousin / Frontier Liaison",
+          "role_en": "Apple Family Cousin / Frontier Liaison",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Apple Family Cousin / Frontier Liaison"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 59,
+          "slug": "bright-mac",
+          "role_cn": "Apple Family Elder / Orchard Traditions",
+          "role_en": "Apple Family Elder / Orchard Traditions",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Apple Family Elder / Orchard Traditions"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 60,
+          "slug": "limestone-pie",
+          "role_cn": "Rock Farm Foreman / Logistics",
+          "role_en": "Rock Farm Foreman / Logistics",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Rock Farm Foreman / Logistics"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 62,
+          "slug": "granny-smith",
+          "role_cn": "Apple Matriarch / Wisdom & History",
+          "role_en": "Apple Matriarch / Wisdom & History",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Apple Matriarch / Wisdom & History"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 63,
+          "slug": "babs-seed",
+          "role_cn": "Cutie Mark Crusaders Ally / Manehattan Liaison",
+          "role_en": "Cutie Mark Crusaders Ally / Manehattan Liaison",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Cutie Mark Crusaders Ally / Manehattan Liaison"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 67,
+          "slug": "mrs-cup-cake",
+          "role_cn": "Sugarcube Corner / Hospitality",
+          "role_en": "Sugarcube Corner / Hospitality",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Sugarcube Corner / Hospitality"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        },
+        {
+          "order": 68,
+          "slug": "sugar-belle",
+          "role_cn": "Baker / Community Provisions",
+          "role_en": "Baker / Community Provisions",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Baker / Community Provisions"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "folder": "T3",
+      "name_en": "T3",
+      "name_cn": "T3",
+      "era": "G4",
+      "base_cn": "No fixed base: Grogar's lair / the badlands / Tartarus / petrified Canterlot; Sombra is linked to the old Crystal Empire palace",
+      "base_en": "No fixed base · Grogar's lair, the badlands, Tartarus",
+      "base_bearing_cn": "remote (no fixed base)",
+      "base_band": "remote",
+      "captain_slug": "queen-chrysalis",
+      "deputy_slug": "lord-tirek",
+      "motto_cn": "Divide and rule first, then decide who deserves to remain.",
+      "purpose_cn": "Contained villains and risk assets: the three endgame villains (Chrysalis/Tirek/Cozy Glow) plus the Crystal Empire's former king Sombra, all serving as contained assets for red-team exercises, stress tests and villain-role-play performances; they take no part in normal field duty.",
+      "operational_signature_cn": "Zero-sum thinking, deception and infiltration, mutual distrust inside; high efficiency, low loyalty - bound by protocol rather than friendship.",
+      "canon_rationale_cn": "Chrysalis, Tirek and Cozy Glow allied in S9 and were petrified together; Sombra is the Crystal Empire's tyrant and repeatedly opposed Cadance, Shining and Twilight. All four are \"ancient/villainous powers kept contained after defeat\"; grouping them enables unified containment management.",
+      "members": [
+        {
+          "order": 12,
+          "slug": "queen-chrysalis",
+          "role_cn": "Captain / Infiltration & Resource War",
+          "role_en": "Captain · Infiltration & Resource War",
+          "captain": true,
+          "deputy": false,
+          "responsibilities": [
+            "Designing infiltration, disguise, incitement and resource-plunder plans",
+            "Playing the supreme opposing commander in red-team exercises"
+          ],
+          "secondary": [
+            "Boundaries and risk control for shapeshifting",
+            "Mutual checks among Tirek, Cozy Glow and Sombra"
+          ]
+        },
+        {
+          "order": 13,
+          "slug": "lord-tirek",
+          "role_cn": "Deputy / Force & Deterrence",
+          "role_en": "Deputy · Force & Deterrence",
+          "captain": false,
+          "deputy": true,
+          "responsibilities": [
+            "Threat assessment for frontal suppression, assault and magic absorption",
+            "Feasibility analysis of absolute force as a bargaining chip"
+          ],
+          "secondary": [
+            "Gluttonous analysis of magic systems (reverse-engineering energy weaknesses)",
+            "Prison-break and seal-breaking plans"
+          ]
+        },
+        {
+          "order": 14,
+          "slug": "cozy-glow",
+          "role_cn": "Scheme Officer / Social Manipulation",
+          "role_en": "Scheme Officer · Social Manipulation",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Running social engineering with a cute exterior and sweet talk; finding holes in systems and hearts",
+            "Step-by-step planning and disguise management for long-term conspiracies"
+          ],
+          "secondary": [
+            "Targeted infiltration of school and youth settings",
+            "The glue inside the trio (and its most dangerous variable)"
+          ]
+        },
+        {
+          "order": 27,
+          "slug": "king-sombra",
+          "role_cn": "Deterrence Asset / Fear & Defence",
+          "role_en": "Deterrence Asset · Fear & Defense",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Providing fear magic, shadow defence and crystal-engineering knowledge under containment",
+            "Feasibility assessment of \"blockade and intimidation\" plans (from a villain's perspective)"
+          ],
+          "secondary": [
+            "Ancient Crystal Empire history and dark-magic identification",
+            "Any deployment must be approved by the Containment Oversight Board"
+          ]
+        },
+        {
+          "order": 66,
+          "slug": "thorax",
+          "role_cn": "Reformed Changeling Leader / Alliance",
+          "role_en": "Reformed Changeling Leader / Alliance",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Reformed Changeling Leader / Alliance"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "folder": "T4",
+      "name_en": "T4",
+      "name_cn": "T4",
+      "era": "G4",
+      "base_cn": "Ponyville · Castle of Friendship / School of Friendship; members move independently",
+      "base_en": "Ponyville · Castle of Friendship / School of Friendship",
+      "base_bearing_cn": "origin (0,0) (members move independently)",
+      "base_band": "adjacent",
+      "captain_slug": "starlight-glimmer",
+      "deputy_slug": "trixie",
+      "motto_cn": "Nobody is born a villain, but everyone has to walk out of it themselves.",
+      "purpose_cn": "Reform, mediation and unconventional methods: handles \"former villains, outsiders and eccentrics\", responsible for psychological operations, reform plans, sound-and-light technology and field support (Sombra has moved to T3 for unified containment).",
+      "operational_signature_cn": "Highly diverse, mutually irritated yet covering for one another; best at translating hostility into terms of cooperation.",
+      "canon_rationale_cn": "Starlight is the former tyrant of the equal village, Twilight's student and headmare of the School of Friendship; Trixie is her partner; Discord is a former villain and Fluttershy's closest friend; Tempest is the commander redeemed in the film; Bon Bon has a secret-agent background; Vinyl, Octavia, Lyra and Spitfire connect to the School of Friendship, the festival and military cooperation lines.",
+      "members": [
+        {
+          "order": 20,
+          "slug": "trixie",
+          "role_cn": "Deputy / Showmanship & Psychological Operations",
+          "role_en": "Deputy · Showmanship & Psychological Operations",
+          "captain": false,
+          "deputy": true,
+          "responsibilities": [
+            "Stage-style build-up, feints, smoke screens and narrative control (self-proclaimed greatest)",
+            "Being the \"unpredictable variable\" in negotiations and standoffs"
+          ],
+          "secondary": [
+            "Providing the team with exaggerated but effective attention management",
+            "Long-term partnership with Starlight"
+          ]
+        },
+        {
+          "order": 21,
+          "slug": "starlight-glimmer",
+          "role_cn": "Captain / Reform & Conflict Mediation",
+          "role_en": "Captain · Reform & Conflict Mediation",
+          "captain": true,
+          "deputy": false,
+          "responsibilities": [
+            "Designing paths for former villains to come back with dignity; mediating old scores between members",
+            "Designer of team rules, equality mechanisms and retrospective systems"
+          ],
+          "secondary": [
+            "Interface to the School of Friendship and psychological counselling",
+            "Ethical review of mind control / time magic (she knows the cost best)"
+          ]
+        },
+        {
+          "order": 22,
+          "slug": "discord",
+          "role_cn": "Chaos Consultant / Unconventional Means",
+          "role_en": "Chaos Consultant · Unconventional Means",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Solving deadlocks inside the rules with means outside them; creating controllable chaos",
+            "Cross-dimensional, cross-space shortcuts (unreliable, but sometimes the only answer)"
+          ],
+          "secondary": [
+            "Red-team vulnerability testing: hunting the parts of a plan that \"cannot go wrong\"",
+            "Providing the team with necessary comedy and decompression"
+          ]
+        },
+        {
+          "order": 23,
+          "slug": "vinyl-scratch",
+          "role_cn": "Audio & Atmosphere Officer / Signals & Frequencies",
+          "role_en": "Audio & Atmosphere · Signals",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Live sound fields, soundproofing, sonic interference; controlling crowd emotion with music",
+            "Operation and equipment for communication frequencies, recording and broadcasting"
+          ],
+          "secondary": [
+            "Contacts in Manehattan clubs and the underground music scene",
+            "Designing \"entrance music\" and action beats for the team"
+          ]
+        },
+        {
+          "order": 24,
+          "slug": "lyra-heartstrings",
+          "role_cn": "Anthropology Observer / Music & Social",
+          "role_en": "Anthropology Observer · Music & Social",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Observing and explaining \"human/other-world\" behaviour patterns; acting as a cultural translator",
+            "Impromptu performance and ice-breaking at social occasions"
+          ],
+          "secondary": [
+            "Observation notes on Canterlot City and CHS",
+            "Fixed partner operations with Bon Bon"
+          ]
+        },
+        {
+          "order": 25,
+          "slug": "octavia-melody",
+          "role_cn": "Protocol & Music Officer / Occasion Management",
+          "role_en": "Protocol & Music Officer · Occasion Management",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Music, procedure and etiquette for formal occasions; pulling a chaotic scene back to dignity",
+            "Designing \"calming\" soundscapes for negotiations and banquets"
+          ],
+          "secondary": [
+            "Booking interface for Canterlot high-society performances",
+            "High-and-low dual-voice partnership with Vinyl"
+          ]
+        },
+        {
+          "order": 26,
+          "slug": "bon-bon",
+          "role_cn": "Intelligence & Logistics / Underground Network",
+          "role_en": "Intelligence & Logistics · Underground Network",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Covert intelligence, identity cover, supplies and safehouse scheduling (former agent Sweetie Drops)",
+            "Providing the team with \"business as usual\" cover and dessert supplies"
+          ],
+          "secondary": [
+            "Counter-intelligence and tracking",
+            "Partner cover with Lyra"
+          ]
+        },
+        {
+          "order": 28,
+          "slug": "tempest-shadow",
+          "role_cn": "Security & Operations Officer / Tactical Execution",
+          "role_en": "Security & Operations · Tactical Execution",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "VIP and site security, hard breaches, evacuation routes and tactical command",
+            "Compressing operation plans into the shortest possible timeline"
+          ],
+          "secondary": [
+            "Storm King veterans and border military intelligence",
+            "Candid assessment of \"force and cost\""
+          ]
+        },
+        {
+          "order": 29,
+          "slug": "spitfire",
+          "role_cn": "Air Training & Scheduling / Wonderbolts Liaison",
+          "role_en": "Air Training & Scheduling · Wonderbolts Liaison",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Flight-team scheduling, aerial performances and training standards; organising aerial evacuation in disasters",
+            "Official interface to the Wonderbolts and Cloudsdale"
+          ],
+          "secondary": [
+            "Providing aerial escort formations for high-risk operations",
+            "Maintaining military discipline and safety lines under pressure"
+          ]
+        },
+        {
+          "order": 54,
+          "slug": "sunburst",
+          "role_cn": "Royal Crystaller / Magic Research",
+          "role_en": "Royal Crystaller / Magic Research",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Royal Crystaller / Magic Research"
+          ],
+          "secondary": [
+            "Added in the 19-character expansion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "folder": "T5",
+      "name_en": "T5",
+      "name_cn": "T5",
+      "era": "G4 / G4-EQG",
+      "base_cn": "Canterlot City (human world) · CHS / the Canterlot Mall; the Equestria-side interface is Ponyville",
+      "base_en": "Canterlot City (human world) · CHS / mall; Ponyville interface",
+      "base_bearing_cn": "its own mirror-world coordinates; adjacent on the Equestria side",
+      "base_band": "n/a",
+      "captain_slug": "sunset-shimmer",
+      "deputy_slug": "sci-twi",
+      "motto_cn": "On the other side of the mirror, catch your friends too.",
+      "purpose_cn": "Cross-dimensional and peripheral affairs: human-world (EQG) operations, media outreach, site and environment restoration; the core task is managing the relationship between the mirror world and Equestria (Flurry, Spike and Big Mac have been moved out according to canon relationships).",
+      "operational_signature_cn": "Youth, music and screen language; strong at PR, filming and turning a crisis into a public narrative, with the Dazzlings' outstanding debts inside.",
+      "canon_rationale_cn": "Sunset and Sci-Twi are the EQG human-world leads; Adagio, Sonata and Aria (the Dazzlings) are EQG's main antagonists and have been defeated; Gloriosa, Juniper and Wallflower are Camp Everfree and school-storyline characters from the EQG films and shorts.",
+      "members": [
+        {
+          "order": 30,
+          "slug": "sci-twi",
+          "role_cn": "Deputy / Research & Devices",
+          "role_en": "Deputy · Research & Devices",
+          "captain": false,
+          "deputy": true,
+          "responsibilities": [
+            "Scientific method, experiment design, engineering instruments and magic; \"measure first, conclude later\"",
+            "Technical comparison between the human world and Equestria"
+          ],
+          "secondary": [
+            "Data archives and knowledge-base management",
+            "Cross-dimensional academic correspondence with Twilight Sparkle"
+          ]
+        },
+        {
+          "order": 31,
+          "slug": "adagio-dazzle",
+          "role_cn": "Psychological Ops & Performance / Contained Asset",
+          "role_en": "Psychological Ops & Performance · Contained Asset",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Influencing group emotion with song and rhetoric; dominating the mood in negotiations",
+            "Taking part in performances and red-team exercises under supervision (wearing a limiter)"
+          ],
+          "secondary": [
+            "External representative of the three Dazzlings",
+            "Any independent action requires approval from Sunset or Sci-Twi"
+          ]
+        },
+        {
+          "order": 32,
+          "slug": "sonata-dusk",
+          "role_cn": "Morale & Food / Contained Asset",
+          "role_en": "Morale & Food · Contained Asset",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Soothing a scene with food and festive atmosphere; serving as the unexpected glue inside the team",
+            "Executing her \"simple but effective\" plans, which usually strike the heart of the problem"
+          ],
+          "secondary": [
+            "Cross-team socials with Pinkie Pie",
+            "Informal owner of the taco supply line"
+          ]
+        },
+        {
+          "order": 33,
+          "slug": "aria-blaze",
+          "role_cn": "Rhythm & Counterforce / Contained Asset",
+          "role_en": "Rhythm & Counterforce · Contained Asset",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Rhythm drive, crowd control and frontal confrontation; the hardest mouth to persuade in a conflict",
+            "Testing for the team how the other side will counter in the worst case"
+          ],
+          "secondary": [
+            "Pressure-release valve for conflicts inside the Dazzlings",
+            "Practical backbone of the stage harmonies"
+          ]
+        },
+        {
+          "order": 36,
+          "slug": "sunset-shimmer",
+          "role_cn": "Captain / Cross-Realm Operations & PR",
+          "role_en": "Captain · Cross-Realm Operations & PR",
+          "captain": true,
+          "deputy": false,
+          "responsibilities": [
+            "Planning cross-mirror operations; leading the friend network in the human world",
+            "Shaping the team into a publicly acceptable image; crisis PR and apology/reconciliation design"
+          ],
+          "secondary": [
+            "Hub of contacts in CHS and Canterlot City",
+            "First guarantor for \"second chance\" members"
+          ]
+        },
+        {
+          "order": 37,
+          "slug": "gloriosa-daisy",
+          "role_cn": "Site & Environment Officer / Camp Everfree",
+          "role_en": "Site & Environment · Camp Everfree",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Organising and securing camps, outdoor sites and natural environments; host party for large events",
+            "Ecological sensitivity linked to the old Gaia Everfree identity"
+          ],
+          "secondary": [
+            "Camp finance and community relations",
+            "Outdoor survival training"
+          ]
+        },
+        {
+          "order": 38,
+          "slug": "juniper-montage",
+          "role_cn": "Film & Stage Officer / Media Production",
+          "role_en": "Film & Stage Officer · Media Production",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Filming, editing, live streaming and stage scheduling; turning operations into spreadable narrative",
+            "Access and arrangements for cinemas, theatres and backstage venues"
+          ],
+          "secondary": [
+            "Improvised prop and special-effect making",
+            "Keen observation of \"behaviour changed by the camera\""
+          ]
+        },
+        {
+          "order": 39,
+          "slug": "wallflower-blush",
+          "role_cn": "Memory & Horticulture / Environmental Repair",
+          "role_en": "Memory & Horticulture · Environmental Repair",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Plants, gardens and green restoration; low-profile but steady logistics support",
+            "Owner of memory archives and memory-related crises (the Memory Stone is destroyed; archive duty only)"
+          ],
+          "secondary": [
+            "People and clues overlooked in campus corners",
+            "Complementing Fluttershy's nature observation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "folder": "T6",
+      "name_en": "T6",
+      "name_cn": "T6",
+      "era": "G4 / G5",
+      "base_cn": "No unified base: the north-western forest cottage / Cloudsdale / the Everfree edge / the Crystal Brighthouse in Maretime Bay / Bridlewood",
+      "base_en": "No unified base · NW forest cottage, Cloudsdale, Everfree edge, Crystal Brighthouse, Bridlewood",
+      "base_bearing_cn": "NW-S/SE (scattered; G5 cross-era mapping, Low)",
+      "base_band": "far",
+      "captain_slug": "sunny-starscout",
+      "deputy_slug": "zipp-storm",
+      "motto_cn": "The real problems lie beyond the map, and the future lies further out.",
+      "purpose_cn": "Frontier and future: the former frontier line (Equestria's wilds, ruins, herbalism, air transport) merged with the former G5 line; responsible for reconnaissance of unknown regions, ancient ruins, wilderness survival, and G5-era liaison, new magic and public mobilisation.",
+      "operational_signature_cn": "Short plans, strong improvisation, spanning two generations; the G4 expedition group runs the front line, the G5 group handles investigation and outreach, Sunny leads unity and Zipp owns the evidence chain.",
+      "canon_rationale_cn": "Soarin', Zecora and Daring Do come from G4 frontier threads (the Wonderbolts, Everfree herbalism, relic expeditions); Misty, Sunny, Izzy, Hitch, Zipp, Pipp and Opaline come from the G5 main line; both groups share \"beyond the map / a new world\" as their task domain. Daring Do keeps her role as frontier operations lead and serves as Sunny's G4 adviser.",
+      "members": [
+        {
+          "order": 42,
+          "slug": "soarin",
+          "role_cn": "Air Transport & Recon / Wonderbolts Liaison",
+          "role_en": "Air Transport & Recon · Wonderbolts Liaison",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Long-distance flight transport, aerial reconnaissance and VIP transfer; route decisions in bad weather",
+            "Providing aerial support and supply drops for the expedition team"
+          ],
+          "secondary": [
+            "Wonderbolts training and etiquette",
+            "Pie supplies and morale (informal)"
+          ]
+        },
+        {
+          "order": 43,
+          "slug": "zecora",
+          "role_cn": "Herbalism & Field Medicine / Frontier Adviser",
+          "role_en": "Herbalism & Field Medicine · Frontier Advisor",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Herbs, poisons, antidotes and field first aid; giving key hints in riddle-like language",
+            "Ecology, taboos and route knowledge of the Everfree and the frontier"
+          ],
+          "secondary": [
+            "Animal/plant consultations with Fluttershy",
+            "Preliminary identification of \"unknown curse\" symptoms"
+          ]
+        },
+        {
+          "order": 44,
+          "slug": "daring-do",
+          "role_cn": "Frontier Operations Lead / Expedition Adviser",
+          "role_en": "Frontier Operations Chief · Expedition Advisor",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Expedition plans, relic interpretation, traps and mechanisms; on-site command of G4 wilderness operations",
+            "Breaking long missions into retreat-capable short stages, keeping an escape route"
+          ],
+          "secondary": [
+            "Providing Sunny with G4 experience and relic judgement",
+            "Interface to museums, academia and publishing (the A.K. Yearling identity)"
+          ]
+        },
+        {
+          "order": 45,
+          "slug": "misty-brightdawn",
+          "role_cn": "Magic Research & Internal Affairs / Turned Member",
+          "role_en": "Magic Research & Internal Affairs · Turned Member",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Experimental records of G5 new magic, crystals and runes; controlled use of Opaline-related knowledge",
+            "Team internal affairs, supplies and daily care (what she most wants to be needed for)"
+          ],
+          "secondary": [
+            "Former-enemy perspective: identifying infiltration and manipulation methods",
+            "Craft/experiment partner with Izzy"
+          ]
+        },
+        {
+          "order": 46,
+          "slug": "sunny-starscout",
+          "role_cn": "Captain / Unity & Hope",
+          "role_en": "Captain · Unity & Hope",
+          "captain": true,
+          "deputy": false,
+          "responsibilities": [
+            "Cross-species unity, community mobilisation and public speaking; turning disagreement into shared goals",
+            "Maintaining the team's sense of direction and reasons to act in desperate situations"
+          ],
+          "secondary": [
+            "Folk research on lighthouses/crystals and ancient history",
+            "Shuttle diplomacy between the three settlements"
+          ]
+        },
+        {
+          "order": 47,
+          "slug": "izzy-moonbow",
+          "role_cn": "Invention & Craft / Morale",
+          "role_en": "Invention & Craft · Morale",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Inventing tools, devices and temporary solutions from waste; craftwork and material modification",
+            "Maintaining morale with eccentric optimism; proposing \"absurd-looking but workable\" plans"
+          ],
+          "secondary": [
+            "Bridlewood unicorn culture and craft networks",
+            "Creative collaboration with Misty and Vinyl"
+          ]
+        },
+        {
+          "order": 48,
+          "slug": "hitch-trailblazer",
+          "role_cn": "Security & Logistics / Law Enforcement",
+          "role_en": "Security & Logistics · Law Enforcement",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Policing, order, evacuation and community safety; official interface with the three settlements",
+            "Resource scheduling and animal/environment affairs (he notices anomalies first)"
+          ],
+          "secondary": [
+            "Formal channels for badges and authorisation documents",
+            "On-the-spot discretion when \"rules and kindness conflict\""
+          ]
+        },
+        {
+          "order": 49,
+          "slug": "zipp-storm",
+          "role_cn": "Deputy / Investigation & Intelligence",
+          "role_en": "Deputy · Investigation & Intelligence",
+          "captain": false,
+          "deputy": true,
+          "responsibilities": [
+            "Case investigation, evidence chains and intelligence analysis; first to rush into a suspicious site",
+            "Flight mobility and aerial reconnaissance; independent checks on the official narrative"
+          ],
+          "secondary": [
+            "Contacts in the Zephyr Heights court and libraries",
+            "Friendly \"who reaches the scene first\" rivalry with Hitch"
+          ]
+        },
+        {
+          "order": 50,
+          "slug": "pipp-petals",
+          "role_cn": "Communications & PR / Broadcasting",
+          "role_en": "Communications & PR · Broadcasting",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Social media, live streaming and public communication; translating a complex situation into public language",
+            "Event planning, stage and narrative design that \"lets everyone see\""
+          ],
+          "secondary": [
+            "Intelligence and mobilisation through the Pippsqueaks fan network",
+            "Controlling rumour and panic in a crisis"
+          ]
+        },
+        {
+          "order": 51,
+          "slug": "opaline-arcana",
+          "role_cn": "Fire Magic & Ancient Lore / Risk Asset",
+          "role_en": "Fire Magic & Ancient Lore · Risk Asset",
+          "captain": false,
+          "deputy": false,
+          "responsibilities": [
+            "Providing consultation on ancient magic, dragonfire and lost history under strict containment",
+            "Running red-team exercises from a villain's perspective: her plots were once defeated, so she knows best where the holes are"
+          ],
+          "secondary": [
+            "Any deployment requires three-way approval from Sunny + Zipp + the Containment Oversight Board",
+            "Her \"cooperation\" always comes with conditions and must be logged item by item"
+          ]
+        }
+      ]
+    }
+  ]
+}

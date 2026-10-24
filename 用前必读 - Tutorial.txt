@@ -1,0 +1,3 @@
+1、Deepseek Harness 中先打开 “智能体团队”插件 / Enable "Agent Teams" Plugin
+2、设置中打开"完全权限" / Toggle "Full Access" on Settings -> General -> Permission
+3、直接把READ THIS TO USE-OV.md喂给AI启动即可 / Put "READ THIS TO USE-OV.md" to AI and run the process.

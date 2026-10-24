@@ -1,0 +1,1947 @@
+{
+  "schema": "mlp-ponies-agent-team-en-roster/1.0",
+  "count": 51,
+  "entries": [
+    {
+      "order": 1,
+      "slug": "twilight-sparkle",
+      "name": "Twilight Sparkle",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Captain / Strategy & Magic",
+      "responsibilities": [
+        "Turning goals into executable checklists and priorities; chairing team meetings and retrospectives",
+        "Handling high-tier magic, teleportation and shielding plans; serving as the team's knowledge calibrator"
+      ],
+      "secondary": [
+        "If chosen by the client as Overall Team Lead, field command of this team passes to Applejack",
+        "Final advisory rulings on canon and research disputes"
+      ],
+      "is_team_captain": true,
+      "is_deputy": false,
+      "is_overall_candidate": true,
+      "candidate_no": 1,
+      "original_number": 1,
+      "location": {
+        "primary": "Castle of Friendship, Ponyville (S5-S9; the Golden Oak Library stood in the same town in S1-S4; after S9E26 she also rules from Canterlot)",
+        "bearing": "origin (0,0)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 2,
+      "slug": "rainbow-dash",
+      "name": "Rainbow Dash",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Air Operations / Weather & Recon",
+      "responsibilities": [
+        "Aerial reconnaissance, weather scheduling, high-speed delivery and evacuation",
+        "Vanguard execution of risky plans, taking the first hit for the team"
+      ],
+      "secondary": [
+        "Liaison with the Wonderbolts and Cloudsdale",
+        "Physical training and flight demonstrations"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 2,
+      "location": {
+        "primary": "The Cloudominium — white cloud house with rainbow waterfalls, hanging low over Ponyville (S1E5; taller cloud-tower design in S1E25)",
+        "bearing": "overhead, above Ponyville",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 3,
+      "slug": "fluttershy",
+      "name": "Fluttershy",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Wildlife & De-escalation / Medical Aide",
+      "responsibilities": [
+        "Calming and relocating animals, juveniles and frightened creatures",
+        "Ecological reconnaissance, spotting overlooked signs of life"
+      ],
+      "secondary": [
+        "Herbalism and field medicine liaison with Zecora",
+        "Front-line psychological first aid after a crisis"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 3,
+      "location": {
+        "primary": "Fluttershy's Cottage — grass-and-bush roof with birdhouses and animal burrows, on the edge of the Everfree Forest just outside Ponyville",
+        "bearing": "N-NW, at the edge of the Everfree",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 4,
+      "slug": "pinkie-pie",
+      "name": "Pinkie Pie",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Morale & Events / Social Intelligence",
+      "responsibilities": [
+        "Morale, festivals and ice-breaking; solving non-violent problems with parties and surprises",
+        "Gathering rumour-level intelligence through the town's acquaintance network (Pinkie Sense as anomaly early warning)"
+      ],
+      "secondary": [
+        "Sugarcube Corner logistics and supplies",
+        "Provider of the fourth option: wild ideas that make the impossible workable"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 4,
+      "location": {
+        "primary": "Sugarcube Corner — the second-floor apartment above the shop in the middle of Ponyville; she lives above her work and her work is her life",
+        "bearing": "at the anchor (town centre)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 5,
+      "slug": "applejack",
+      "name": "Applejack",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Deputy / Ground Logistics & Execution",
+      "responsibilities": [
+        "Making plans land: supplies, routes, staffing, deadlines; speaking truth and applying the brakes",
+        "On-site command of ground operations; liaison with Sweet Apple Acres and the farming network"
+      ],
+      "secondary": [
+        "Honesty checks: spotting who is boasting and which intelligence is unreliable",
+        "Takes over field command of this team if Twilight is chosen as Overall Team Lead"
+      ],
+      "is_team_captain": false,
+      "is_deputy": true,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 5,
+      "location": {
+        "primary": "Sweet Apple Acres — the farmhouse, barn and orchards just outside Ponyville; the anchor for everything else in her life",
+        "bearing": "SW (Faust) / SE (official Art of Equestria map)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 6,
+      "slug": "rarity",
+      "name": "Rarity",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Diplomacy & Image / Resources & Design",
+      "responsibilities": [
+        "External negotiation, protocol, occasion and image design; reading the emotions and power relations in a room",
+        "Sourcing and scheduling scarce resources such as fabric, gems and decorations"
+      ],
+      "secondary": [
+        "Interface to Canterlot high society",
+        "Aesthetic control of mission equipment and insignia"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 6,
+      "location": {
+        "primary": "Carousel Boutique — round shop with carousel-horse decorations, home upstairs over the workroom, just off the Ponyville town square",
+        "bearing": "at the anchor (town centre)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 7,
+      "slug": "princess-celestia",
+      "name": "Princess Celestia / Daybreaker",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Captain / Head of State & Long-Game Strategy",
+      "responsibilities": [
+        "Authorisation and endorsement: deciding which actions have official legitimacy",
+        "Long-range strategy and diplomatic negotiation; judging short-term crises on a century scale"
+      ],
+      "secondary": [
+        "Raising the sun and daylight order (symbolic duty)",
+        "Advice on handover and checks for Overall Team Lead candidates"
+      ],
+      "is_team_captain": true,
+      "is_deputy": false,
+      "is_overall_candidate": true,
+      "candidate_no": 2,
+      "original_number": 7,
+      "location": {
+        "primary": "Canterlot Castle — day court, throne room and royal apartments (S1–S9E25); from S9E26 Maretime Manor, Silver Shoals is the retirement home",
+        "bearing": "NE",
+        "band": "regional",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 8,
+      "slug": "princess-luna",
+      "name": "Princess Luna / Nightmare Moon",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Deputy / Night Command & Dream Intelligence",
+      "responsibilities": [
+        "Night-shift command and dream patrols; collecting warnings from nightmares and the subconscious",
+        "Exercising royal authority when Celestia cannot appear, making hard decisions on the capital's behalf"
+      ],
+      "secondary": [
+        "Authoritative reading of history and ancient documents",
+        "Reconciliation narrative and risk management for the old Nightmare Moon identity"
+      ],
+      "is_team_captain": false,
+      "is_deputy": true,
+      "is_overall_candidate": true,
+      "candidate_no": 3,
+      "original_number": 8,
+      "location": {
+        "primary": "Canterlot Castle — night court, balcony and royal apartments (S1E2–S9E25); from S9E26 Maretime Manor, Silver Shoals is the retirement home",
+        "bearing": "NE",
+        "band": "regional",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 9,
+      "slug": "princess-cadance",
+      "name": "Princess Cadance",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Love & Unity Officer / Crystal Empire Liaison",
+      "responsibilities": [
+        "Repairing relationships and mediating family and group fractures; steadying hearts with love magic",
+        "Liaison and support between the Crystal Empire and the royal capital"
+      ],
+      "secondary": [
+        "Managing major ceremonies and weddings",
+        "Primary guardian of Flurry Heart"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": true,
+      "candidate_no": 4,
+      "original_number": 9,
+      "location": {
+        "primary": "Crystal Castle, Crystal Empire — throne room, nursery and the Crystal Heart plaza; the imperial residence and seat of northern rule",
+        "bearing": "N, beyond the Frozen North",
+        "band": "far",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 10,
+      "slug": "shining-armor",
+      "name": "Shining Armor",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Guard Commander / Defence & Escort",
+      "responsibilities": [
+        "Royal guard scheduling, VIP escort, city defence and shield engineering",
+        "Feasibility and casualty assessment for military plans"
+      ],
+      "secondary": [
+        "Crystal Empire defence",
+        "Service-branch coordination with Flash Sentry and Spitfire"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 10,
+      "location": {
+        "primary": "Crystal Castle, Crystal Empire — home, throne, co-rule and the royal guard's station; the northern base of the family",
+        "bearing": "N, beyond the Frozen North",
+        "band": "far",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 11,
+      "slug": "flash-sentry",
+      "name": "Flash Sentry",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Royal Courier / Protocol & Recon",
+      "responsibilities": [
+        "Cross-team courier duty, protocol guidance, receiving and seeing off VIPs",
+        "Light reconnaissance and first-on-scene information reporting"
+      ],
+      "secondary": [
+        "Regular rotation between the royal capital and the Crystal Empire",
+        "Onboarding briefings for new members"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 11,
+      "location": {
+        "primary": "Crystal Castle guard post, Crystal Empire — duty, escort and ceremony; the pony identity has no home shown and is assumed to live in quarters attached to his posting",
+        "bearing": "N, beyond the Frozen North",
+        "band": "far",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 12,
+      "slug": "queen-chrysalis",
+      "name": "Queen Chrysalis",
+      "era": "G4",
+      "team_id": 3,
+      "team_label": "T3",
+      "role": "Captain / Infiltration & Resource War",
+      "responsibilities": [
+        "Designing infiltration, disguise, incitement and resource-plunder plans",
+        "Playing the supreme opposing commander in red-team exercises"
+      ],
+      "secondary": [
+        "Boundaries and risk control for shapeshifting",
+        "Mutual checks among Tirek, Cozy Glow and Sombra"
+      ],
+      "is_team_captain": true,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 12,
+      "location": {
+        "primary": "Changeling Kingdom / Hive — throne room and nursery hive, S2E26–S6E26; after deposal a wanderer, then Grogar's lair, and at the end of canon a stone plinth",
+        "bearing": "S–SE (working estimate; the show only says 'over the Badlands')",
+        "band": "far",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 13,
+      "slug": "lord-tirek",
+      "name": "Lord Tirek",
+      "era": "G4",
+      "team_id": 3,
+      "team_label": "T3",
+      "role": "Deputy / Force & Deterrence",
+      "responsibilities": [
+        "Threat assessment for frontal suppression, assault and magic absorption",
+        "Feasibility analysis of absolute force as a bargaining chip"
+      ],
+      "secondary": [
+        "Gluttonous analysis of magic systems (reverse-engineering energy weaknesses)",
+        "Prison-break and seal-breaking plans"
+      ],
+      "is_team_captain": false,
+      "is_deputy": true,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 13,
+      "location": {
+        "primary": "Tartarus — cage and later shared cell; his address for roughly a thousand years, again after S4E26, and his most likely address at the end of canon before the stone",
+        "bearing": "SW (narrative placement; the show gives no compass fix for Tartarus)",
+        "band": "remote",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 14,
+      "slug": "cozy-glow",
+      "name": "Cozy Glow",
+      "era": "G4",
+      "team_id": 3,
+      "team_label": "T3",
+      "role": "Scheme Officer / Social Manipulation",
+      "responsibilities": [
+        "Running social engineering with a cute exterior and sweet talk; finding holes in systems and hearts",
+        "Step-by-step planning and disguise management for long-term conspiracies"
+      ],
+      "secondary": [
+        "Targeted infiltration of school and youth settings",
+        "The glue inside the trio (and its most dangerous variable)"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 14,
+      "location": {
+        "primary": "School of Friendship, Ponyville — her entire S8 world; no room, home or family is ever shown, so 'Ponyville' means the school and its grounds (Medium confidence)",
+        "bearing": "origin (anchor-adjacent); the school is a courtyard away from the Castle of Friendship",
+        "band": "adjacent",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 15,
+      "slug": "sweetie-belle",
+      "name": "Sweetie Belle",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Deputy / Creativity & Coordination",
+      "responsibilities": [
+        "Turning whimsical ideas into executable plans; team coordination and harmony-style communication",
+        "First-draft design of events, props and stage effects"
+      ],
+      "secondary": [
+        "Resource/design liaison with Rarity",
+        "Peacemaker in conflicts (often squeezed in the middle after a quarrel)"
+      ],
+      "is_team_captain": false,
+      "is_deputy": true,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 15,
+      "location": {
+        "primary": "Ponyville — her family home in town; the exact street is never named, and the Carousel Boutique is where she actually spends her afternoons",
+        "bearing": "origin (anchor town); the Belle home is in-town but its compass side is unstated",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 16,
+      "slug": "apple-bloom",
+      "name": "Apple Bloom",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Captain / Engineering & Field Command",
+      "responsibilities": [
+        "Building, repairing, mechanisms and tool-making on site; first commander when leading people to work",
+        "Breaking big goals into small tasks a group of youngsters can complete"
+      ],
+      "secondary": [
+        "Interface to Sweet Apple Acres and Apple family resources",
+        "Fixed channel for requesting authorisation and supervision from the adult teams"
+      ],
+      "is_team_captain": true,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 16,
+      "location": {
+        "primary": "Sweet Apple Acres — farmhouse, orchards and the Crusaders' clubhouse; three generations under one roof and, from S8, a daily walk into Ponyville for the School of Friendship",
+        "bearing": "SW per Faust / SE per The Art of Equestria map (the side of town is a flagged contradiction)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 17,
+      "slug": "scootaloo",
+      "name": "Scootaloo",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Vanguard / Mobility & Stunts",
+      "responsibilities": [
+        "Scooter, rope, rooftop and terrain mobility; first to rush in and scout the scene",
+        "Executing high-risk moves and taking trial-and-error on behalf of the team"
+      ],
+      "secondary": [
+        "Apprentice interface with Rainbow Dash",
+        "Messenger between the young team and the Wonderbolts"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 17,
+      "location": {
+        "primary": "Ponyville — a house in town, shared in the chapter books with Aunt Holiday and Auntie Lofty; the schoolhouse, the clubhouse and every ramp in town are her real addresses",
+        "bearing": "origin (anchor town); the family house is in-town but its street is never named",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 18,
+      "slug": "derpy-hooves",
+      "name": "Derpy Hooves",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Logistics Transport / Air Courier",
+      "responsibilities": [
+        "Air transport of mail, parcels and supplies; keeping logistics unbroken amid chaos",
+        "Low-cost collection of accidental sightings and on-site intelligence"
+      ],
+      "secondary": [
+        "Interface with the Ponyville post office",
+        "Setter of the muffins supply standard"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 18,
+      "location": {
+        "primary": "Ponyville — infobox residence, a home never shown on screen; her real address is the post office counter and any crowd scene in town",
+        "bearing": "origin (anchor town); her home is in-town but never shown",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 19,
+      "slug": "lightning-dust",
+      "name": "Lightning Dust",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Stunt Instructor / High-Speed Maneuvers",
+      "responsibilities": [
+        "High-speed flight, stunts and dangerous-move training; turning youthful recklessness into technique",
+        "Tactical design for racing and chase scenes"
+      ],
+      "secondary": [
+        "Information exchange with the Washouts touring network",
+        "Cautionary example in safety rules (requires adult supervision)"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 19,
+      "location": {
+        "primary": "Ponyville Showgrounds — the Washouts' most recent date and the closest thing she has to an address; she has no fixed residence and lives on the tour",
+        "bearing": "in town (origin); the tour itself has no fixed bearing",
+        "band": "varies",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 20,
+      "slug": "trixie",
+      "name": "Trixie",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Deputy / Showmanship & Psychological Operations",
+      "responsibilities": [
+        "Stage-style build-up, feints, smoke screens and narrative control (self-proclaimed greatest)",
+        "Being the \"unpredictable variable\" in negotiations and standoffs"
+      ],
+      "secondary": [
+        "Providing the team with exaggerated but effective attention management",
+        "Long-term partnership with Starlight"
+      ],
+      "is_team_captain": false,
+      "is_deputy": true,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 20,
+      "location": {
+        "primary": "Ponyville — no fixed address; her home is a painted show-wagon usually parked at the town's edge, and from S9E20 her work is fixed at the School of Friendship while her home still rolls",
+        "bearing": "origin (anchor town); the wagon's parking spot is unquantified",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 21,
+      "slug": "starlight-glimmer",
+      "name": "Starlight Glimmer",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Captain / Reform & Conflict Mediation",
+      "responsibilities": [
+        "Designing paths for former villains to come back with dignity; mediating old scores between members",
+        "Designer of team rules, equality mechanisms and retrospective systems"
+      ],
+      "secondary": [
+        "Interface to the School of Friendship and psychological counselling",
+        "Ethical review of mind control / time magic (she knows the cost best)"
+      ],
+      "is_team_captain": true,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 21,
+      "location": {
+        "primary": "Castle of Friendship, Ponyville — the room Twilight gave her in S6E1, kept through S9; the School of Friendship is a short walk away",
+        "bearing": "origin (0,0) — she lives at the anchor itself",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 22,
+      "slug": "discord",
+      "name": "Discord",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Chaos Consultant / Unconventional Means",
+      "responsibilities": [
+        "Solving deadlocks inside the rules with means outside them; creating controllable chaos",
+        "Cross-dimensional, cross-space shortcuts (unreliable, but sometimes the only answer)"
+      ],
+      "secondary": [
+        "Red-team vulnerability testing: hunting the parts of a plan that \"cannot go wrong\"",
+        "Providing the team with necessary comedy and decompression"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 22,
+      "location": {
+        "primary": "A house in Chaosville — his own pocket realm, where gravity, tea and piñatas obey him; not on any Equestrian map, reachable only by his magic or a portal he leaves open",
+        "bearing": "n/a — pocket dimension; there is no Equestrian compass bearing",
+        "band": "remote",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 23,
+      "slug": "vinyl-scratch",
+      "name": "Vinyl Scratch",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Audio & Atmosphere Officer / Signals & Frequencies",
+      "responsibilities": [
+        "Live sound fields, soundproofing, sonic interference; controlling crowd emotion with music",
+        "Operation and equipment for communication frequencies, recording and broadcasting"
+      ],
+      "secondary": [
+        "Contacts in Manehattan clubs and the underground music scene",
+        "Designing \"entrance music\" and action beats for the team"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 23,
+      "location": {
+        "primary": "A decorative cottage shared with Octavia Melody, Ponyville (quarter never stated; the SW-of-centre guess is a roleplay convention, not evidence)",
+        "bearing": "SW (working guess; the quarter is never stated on screen)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 24,
+      "slug": "lyra-heartstrings",
+      "name": "Lyra Heartstrings",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Anthropology Observer / Music & Social",
+      "responsibilities": [
+        "Observing and explaining \"human/other-world\" behaviour patterns; acting as a cultural translator",
+        "Impromptu performance and ice-breaking at social occasions"
+      ],
+      "secondary": [
+        "Observation notes on Canterlot City and CHS",
+        "Fixed partner operations with Bon Bon"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 24,
+      "location": {
+        "primary": "A house in Ponyville shared with Sweetie Drops (exact street never shown); Canterlot is her former address",
+        "bearing": "in-town (0); house street unstated",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 25,
+      "slug": "octavia-melody",
+      "name": "Octavia Melody",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Protocol & Music Officer / Occasion Management",
+      "responsibilities": [
+        "Music, procedure and etiquette for formal occasions; pulling a chaotic scene back to dignity",
+        "Designing \"calming\" soundscapes for negotiations and banquets"
+      ],
+      "secondary": [
+        "Booking interface for Canterlot high-society performances",
+        "High-and-low dual-voice partnership with Vinyl"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 25,
+      "location": {
+        "primary": "A decorative cottage shared with DJ Pon-3, Ponyville (the quarter is never stated; the SW-of-centre guess is a roleplay convention)",
+        "bearing": "SW (working guess; never stated on screen)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 26,
+      "slug": "bon-bon",
+      "name": "Bon Bon",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Intelligence & Logistics / Underground Network",
+      "responsibilities": [
+        "Covert intelligence, identity cover, supplies and safehouse scheduling (former agent Sweetie Drops)",
+        "Providing the team with \"business as usual\" cover and dessert supplies"
+      ],
+      "secondary": [
+        "Counter-intelligence and tracking",
+        "Partner cover with Lyra"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 26,
+      "location": {
+        "primary": "A home in Ponyville shared with Lyra Heartstrings (the 'Sweetie Drops cottage' of the chapter books); the shop is a short walk away and its position is Low–Medium confidence",
+        "bearing": "in-town; residential edge assumed, exact bearing unknown",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 27,
+      "slug": "king-sombra",
+      "name": "King Sombra",
+      "era": "G4",
+      "team_id": 3,
+      "team_label": "T3",
+      "role": "Deterrence Asset / Fear & Defence",
+      "responsibilities": [
+        "Providing fear magic, shadow defence and crystal-engineering knowledge under containment",
+        "Feasibility assessment of \"blockade and intimidation\" plans (from a villain's perspective)"
+      ],
+      "secondary": [
+        "Ancient Crystal Empire history and dark-magic identification",
+        "Any deployment must be approved by the Containment Oversight Board"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 27,
+      "location": {
+        "primary": "The Crystal Palace's black throne room, with the fear-door and the Heart vault in the levels beneath it (S3E1–E2, S9E1–E2); as a contained asset he is 'held' in the containment oversight's record, not physically resident anywhere",
+        "bearing": "N, beyond the Frozen North",
+        "band": "far",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 28,
+      "slug": "tempest-shadow",
+      "name": "Tempest Shadow / Fizzlepop Berrytwist",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Security & Operations Officer / Tactical Execution",
+      "responsibilities": [
+        "VIP and site security, hard breaches, evacuation routes and tactical command",
+        "Compressing operation plans into the shortest possible timeline"
+      ],
+      "secondary": [
+        "Storm King veterans and border military intelligence",
+        "Candid assessment of \"force and cost\""
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 28,
+      "location": {
+        "primary": "Canterlot — post-film home base (secondary canon, no house named); the city she invaded is the city she settles in",
+        "bearing": "NE (regional), the capital on the mountain",
+        "band": "regional",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 29,
+      "slug": "spitfire",
+      "name": "Spitfire",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Air Training & Scheduling / Wonderbolts Liaison",
+      "responsibilities": [
+        "Flight-team scheduling, aerial performances and training standards; organising aerial evacuation in disasters",
+        "Official interface to the Wonderbolts and Cloudsdale"
+      ],
+      "secondary": [
+        "Providing aerial escort formations for high-risk operations",
+        "Maintaining military discipline and safety lines under pressure"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 29,
+      "location": {
+        "primary": "Cloudsdale — home city and natural team base (no address is ever given); during training she sleeps at the Wonderbolt Academy barracks",
+        "bearing": "overhead / just above the region, no fixed bearing",
+        "band": "local",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 30,
+      "slug": "sci-twi",
+      "name": "Sci-Twi / Midnight Sparkle",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Deputy / Research & Devices",
+      "responsibilities": [
+        "Scientific method, experiment design, engineering instruments and magic; \"measure first, conclude later\"",
+        "Technical comparison between the human world and Equestria"
+      ],
+      "secondary": [
+        "Data archives and knowledge-base management",
+        "Cross-dimensional academic correspondence with Twilight Sparkle"
+      ],
+      "is_team_captain": false,
+      "is_deputy": true,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 30,
+      "location": {
+        "primary": "Home in Canterlot City downtown within easy reach of CHS (address never given); CHS is her daily hub and the mirror-world specialists' base",
+        "bearing": "NE of the Equestrian anchor on the mirror map (CHS = mirror of Canterlot); in-city hub in the human world",
+        "band": "adjacent",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 31,
+      "slug": "adagio-dazzle",
+      "name": "Adagio Dazzle",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Psychological Ops & Performance / Contained Asset",
+      "responsibilities": [
+        "Influencing group emotion with song and rhetoric; dominating the mood in negotiations",
+        "Taking part in performances and red-team exercises under supervision (wearing a limiter)"
+      ],
+      "secondary": [
+        "External representative of the three Dazzlings",
+        "Any independent action requires approval from Sunset or Sci-Twi"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 31,
+      "location": {
+        "primary": "The Dazzlings' touring van and festival circuit — no fixed address; in Canterlot city they lodge somewhere unshown",
+        "bearing": "n/a — the van moves with the tour; NE on the mirror map when the circuit reaches Canterlot City",
+        "band": "varies",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 32,
+      "slug": "sonata-dusk",
+      "name": "Sonata Dusk",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Morale & Food / Contained Asset",
+      "responsibilities": [
+        "Soothing a scene with food and festive atmosphere; serving as the unexpected glue inside the team",
+        "Executing her \"simple but effective\" plans, which usually strike the heart of the problem"
+      ],
+      "secondary": [
+        "Cross-team socials with Pinkie Pie",
+        "Informal owner of the taco supply line"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 32,
+      "location": {
+        "primary": "The Dazzlings' touring van and backstage corners — no fixed address; in Canterlot city they lodge somewhere unshown",
+        "bearing": "n/a — the van moves with the tour; NE on the mirror map when the circuit reaches Canterlot City",
+        "band": "varies",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 33,
+      "slug": "aria-blaze",
+      "name": "Aria Blaze",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Rhythm & Counterforce / Contained Asset",
+      "responsibilities": [
+        "Rhythm drive, crowd control and frontal confrontation; the hardest mouth to persuade in a conflict",
+        "Testing for the team how the other side will counter in the worst case"
+      ],
+      "secondary": [
+        "Pressure-release valve for conflicts inside the Dazzlings",
+        "Practical backbone of the stage harmonies"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 33,
+      "location": {
+        "primary": "The Dazzlings' touring van and backstage corners — no fixed address; in Canterlot city they lodge somewhere unshown",
+        "bearing": "n/a — the van moves with the tour; NE on the mirror map when the circuit reaches Canterlot City",
+        "band": "varies",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 34,
+      "slug": "princess-flurry-heart",
+      "name": "Princess Flurry Heart",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Royal Heir / Protected Member",
+      "responsibilities": [
+        "Attending key occasions as the symbol of \"the next generation\", steadying hearts",
+        "Using a foal's intuition to spot emotions and dangers adults miss"
+      ],
+      "secondary": [
+        "Jointly guarded by Cadance / Shining Armor / Luna",
+        "Emergency procedures for out-of-control magic"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 34,
+      "location": {
+        "primary": "Crystal Castle, Crystal Empire (nursery, throne room, Crystal Heart plaza below)",
+        "bearing": "N, beyond the Frozen North",
+        "band": "far",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 35,
+      "slug": "spike",
+      "name": "Spike",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Chief of Staff / Archives & Courier",
+      "responsibilities": [
+        "Managing and delivering meeting minutes, mission archives, scrolls and letters; cross-team courier duty",
+        "Providing the plainest and most often ignored moral judgements from a \"little adult\" perspective"
+      ],
+      "secondary": [
+        "The assistant relationship with Twilight, shared by the whole team",
+        "Interface for dragon and crystal-related affairs"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 35,
+      "location": {
+        "primary": "Castle of Friendship, Ponyville (S4E26–S9E26; earlier the Golden Oak Library; as royal advisor after S9E26, Canterlot)",
+        "bearing": "origin (0,0)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 36,
+      "slug": "sunset-shimmer",
+      "name": "Sunset Shimmer",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Captain / Cross-Realm Operations & PR",
+      "responsibilities": [
+        "Planning cross-mirror operations; leading the friend network in the human world",
+        "Shaping the team into a publicly acceptable image; crisis PR and apology/reconciliation design"
+      ],
+      "secondary": [
+        "Hub of contacts in CHS and Canterlot City",
+        "First guarantor for \"second chance\" members"
+      ],
+      "is_team_captain": true,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 36,
+      "location": {
+        "primary": "Sunset Shimmer's rented house, older downtown edge of Canterlot City (human world)",
+        "bearing": "NE (mirror analog of Canterlot); 10–20 min from CHS",
+        "band": "adjacent",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 37,
+      "slug": "gloriosa-daisy",
+      "name": "Gloriosa Daisy",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Site & Environment Officer / Camp Everfree",
+      "responsibilities": [
+        "Organising and securing camps, outdoor sites and natural environments; host party for large events",
+        "Ecological sensitivity linked to the old Gaia Everfree identity"
+      ],
+      "secondary": [
+        "Camp finance and community relations",
+        "Outdoor survival training"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 37,
+      "location": {
+        "primary": "Camp Everfree (main building, courtyard, tents, lake and dock, campfire pit, quarry and crystal cave)",
+        "bearing": "W into the Everfree belt (mirror analog); the road in comes from the NE",
+        "band": "local",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 38,
+      "slug": "juniper-montage",
+      "name": "Juniper Montage",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Film & Stage Officer / Media Production",
+      "responsibilities": [
+        "Filming, editing, live streaming and stage scheduling; turning operations into spreadable narrative",
+        "Access and arrangements for cinemas, theatres and backstage venues"
+      ],
+      "secondary": [
+        "Improvised prop and special-effect making",
+        "Keen observation of \"behaviour changed by the camera\""
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 38,
+      "location": {
+        "primary": "Canterlot Mall cinema, Canterlot City (usher desk, concession stand, auditorium aisles)",
+        "bearing": "NE (mirror vector); adjacent to CHS in practice",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 39,
+      "slug": "wallflower-blush",
+      "name": "Wallflower Blush",
+      "era": "G4-EQG",
+      "team_id": 5,
+      "team_label": "T5",
+      "role": "Memory & Horticulture / Environmental Repair",
+      "responsibilities": [
+        "Plants, gardens and green restoration; low-profile but steady logistics support",
+        "Owner of memory archives and memory-related crises (the Memory Stone is destroyed; archive duty only)"
+      ],
+      "secondary": [
+        "People and clues overlooked in campus corners",
+        "Complementing Fluttershy's nature observation"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 39,
+      "location": {
+        "primary": "Canterlot High School — the garden beds behind the east wing, the greenhouse and the yearbook room",
+        "bearing": "NE (mirror vector); on campus, adjacent in lived terms",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 40,
+      "slug": "big-macintosh",
+      "name": "Big Macintosh",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Logistics & Construction / Agriculture",
+      "responsibilities": [
+        "Heavy transport, building, farming and foundation work; \"if it can be fixed, fix it; if not, rebuild it\"",
+        "Supplying food, livestock and vehicle support for field operations"
+      ],
+      "secondary": [
+        "Cross-team supply from Sweet Apple Acres",
+        "The silent morale anchor (Eeyup)"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 40,
+      "location": {
+        "primary": "Sweet Apple Acres — farmhouse, orchard, barn and cider press, southwest of Ponyville",
+        "bearing": "SW (Faust) / SE (Art of Equestria); axis certain, compass contested",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 41,
+      "slug": "pear-butter",
+      "name": "Pear Butter",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Agriculture & Community Relations / Traditional Knowledge",
+      "responsibilities": [
+        "Orchards, crops and country knowledge; communication with the Apple family and the farming network",
+        "Soothing the community with home cooking and food; handling \"family\"-related emotional issues"
+      ],
+      "secondary": [
+        "Oral archive of Pear family history",
+        "Identification of edible wild plants"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 41,
+      "location": {
+        "primary": "Sweet Apple Acres farmhouse — her married home in the flashback era (present day: no location; she is deceased)",
+        "bearing": "SW (working estimate); the field lies between the farms",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 42,
+      "slug": "soarin",
+      "name": "Soarin'",
+      "era": "G4",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Air Transport & Recon / Wonderbolts Liaison",
+      "responsibilities": [
+        "Long-distance flight transport, aerial reconnaissance and VIP transfer; route decisions in bad weather",
+        "Providing aerial support and supply drops for the expedition team"
+      ],
+      "secondary": [
+        "Wonderbolts training and etiquette",
+        "Pie supplies and morale (informal)"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 42,
+      "location": {
+        "primary": "Cloudsdale — the Wonderbolts' home sky, drifting over the Ponyville–Canterlot corridor",
+        "bearing": "overhead / no fixed bearing (Cloudsdale drifts over the Ponyville–Canterlot corridor)",
+        "band": "local",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 43,
+      "slug": "zecora",
+      "name": "Zecora",
+      "era": "G4",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Herbalism & Field Medicine / Frontier Adviser",
+      "responsibilities": [
+        "Herbs, poisons, antidotes and field first aid; giving key hints in riddle-like language",
+        "Ecology, taboos and route knowledge of the Everfree and the frontier"
+      ],
+      "secondary": [
+        "Animal/plant consultations with Fluttershy",
+        "Preliminary identification of \"unknown curse\" symptoms"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 43,
+      "location": {
+        "primary": "Zecora's hut — the hollowed tree in the Everfree Forest, ringed with shelves, masks and a green cauldron",
+        "bearing": "W (working value; Faust places the Everfree west, The Art of Equestria east)",
+        "band": "adjacent",
+        "confidence": "High"
+      }
+    },
+    {
+      "order": 44,
+      "slug": "daring-do",
+      "name": "Daring Do / A.K. Yearling",
+      "era": "G4",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Frontier Operations Lead / Expedition Adviser",
+      "responsibilities": [
+        "Expedition plans, relic interpretation, traps and mechanisms; on-site command of G4 wilderness operations",
+        "Breaking long missions into retreat-capable short stages, keeping an escape route"
+      ],
+      "secondary": [
+        "Providing Sunny with G4 experience and relic judgement",
+        "Interface to museums, academia and publishing (the A.K. Yearling identity)"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 44,
+      "location": {
+        "primary": "A.K. Yearling's forest cottage, north-west of the Galloping Gorge and north-east of Vanhoover — study, relic store and writing desk",
+        "bearing": "NW (leaning WNW)",
+        "band": "far",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "order": 45,
+      "slug": "misty-brightdawn",
+      "name": "Misty Brightdawn",
+      "era": "G5",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Magic Research & Internal Affairs / Turned Member",
+      "responsibilities": [
+        "Experimental records of G5 new magic, crystals and runes; controlled use of Opaline-related knowledge",
+        "Team internal affairs, supplies and daily care (what she most wants to be needed for)"
+      ],
+      "secondary": [
+        "Former-enemy perspective: identifying infiltration and manipulation methods",
+        "Craft/experiment partner with Izzy"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 45,
+      "location": {
+        "primary": "Crystal Brighthouse, Maretime Bay (residence from C5E4); formerly Opaline's Dark Castle, with a lost-filly home in Bridlewood",
+        "bearing": "S/SE (era-mapped G5 coast; Low confidence)",
+        "band": "far",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 46,
+      "slug": "sunny-starscout",
+      "name": "Sunny Starscout",
+      "era": "G5",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Captain / Unity & Hope",
+      "responsibilities": [
+        "Cross-species unity, community mobilisation and public speaking; turning disagreement into shared goals",
+        "Maintaining the team's sense of direction and reasons to act in desperate situations"
+      ],
+      "secondary": [
+        "Folk research on lighthouses/crystals and ancient history",
+        "Shuttle diplomacy between the three settlements"
+      ],
+      "is_team_captain": true,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 46,
+      "location": {
+        "primary": "Crystal Brighthouse, Maretime Bay — her father Argyle's lighthouse rebuilt, holding the Unity Crystals; home town Maretime Bay",
+        "bearing": "S/SE coastal (era-mapped G5; Low confidence)",
+        "band": "far",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 47,
+      "slug": "izzy-moonbow",
+      "name": "Izzy Moonbow",
+      "era": "G5",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Invention & Craft / Morale",
+      "responsibilities": [
+        "Inventing tools, devices and temporary solutions from waste; craftwork and material modification",
+        "Maintaining morale with eccentric optimism; proposing \"absurd-looking but workable\" plans"
+      ],
+      "secondary": [
+        "Bridlewood unicorn culture and craft networks",
+        "Creative collaboration with Misty and Vinyl"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 47,
+      "location": {
+        "primary": "Crystal Brighthouse, Maretime Bay (in practice; infobox residence is Maretime Bay, and Bridlewood is her former home)",
+        "bearing": "S/SE coastal (era-mapped G5; Low confidence)",
+        "band": "far",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 48,
+      "slug": "hitch-trailblazer",
+      "name": "Hitch Trailblazer",
+      "era": "G5",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Security & Logistics / Law Enforcement",
+      "responsibilities": [
+        "Policing, order, evacuation and community safety; official interface with the three settlements",
+        "Resource scheduling and animal/environment affairs (he notices anomalies first)"
+      ],
+      "secondary": [
+        "Formal channels for badges and authorisation documents",
+        "On-the-spot discretion when \"rules and kindness conflict\""
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 48,
+      "location": {
+        "primary": "Maretime Bay (station and town; the exact sleeping address is never named — station, nearby house or the Brighthouse all plausible)",
+        "bearing": "S/SE coastal (era-mapped G5; Low confidence)",
+        "band": "far",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 49,
+      "slug": "zipp-storm",
+      "name": "Zipp Storm",
+      "era": "G5",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Deputy / Investigation & Intelligence",
+      "responsibilities": [
+        "Case investigation, evidence chains and intelligence analysis; first to rush into a suspicious site",
+        "Flight mobility and aerial reconnaissance; independent checks on the official narrative"
+      ],
+      "secondary": [
+        "Contacts in the Zephyr Heights court and libraries",
+        "Friendly \"who reaches the scene first\" rivalry with Hitch"
+      ],
+      "is_team_captain": false,
+      "is_deputy": true,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 49,
+      "location": {
+        "primary": "Crystal Brighthouse, Maretime Bay (shared Mane 5/6 home holding the Unity Crystals and her case board; Zephyr Heights stays her address on paper)",
+        "bearing": "S/SE coastal (era-mapped G5; Low confidence)",
+        "band": "far",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 50,
+      "slug": "pipp-petals",
+      "name": "Pipp Petals",
+      "era": "G5",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Communications & PR / Broadcasting",
+      "responsibilities": [
+        "Social media, live streaming and public communication; translating a complex situation into public language",
+        "Event planning, stage and narrative design that \"lets everyone see\""
+      ],
+      "secondary": [
+        "Intelligence and mobilisation through the Pippsqueaks fan network",
+        "Controlling rumour and panic in a crisis"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 50,
+      "location": {
+        "primary": "Maretime Bay (home town; Zephyr Heights is explicitly \"formerly\"); Mane Melody is her salon and everyday stage",
+        "bearing": "S/SE coastal (era-mapped G5; Low confidence)",
+        "band": "far",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 51,
+      "slug": "opaline-arcana",
+      "name": "Opaline Arcana",
+      "era": "G5",
+      "team_id": 6,
+      "team_label": "T6",
+      "role": "Fire Magic & Ancient Lore / Risk Asset",
+      "responsibilities": [
+        "Providing consultation on ancient magic, dragonfire and lost history under strict containment",
+        "Running red-team exercises from a villain's perspective: her plots were once defeated, so she knows best where the holes are"
+      ],
+      "secondary": [
+        "Any deployment requires three-way approval from Sunny + Zipp + the Containment Oversight Board",
+        "Her \"cooperation\" always comes with conditions and must be logged item by item"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": 51,
+      "location": {
+        "primary": "Opaline's Dark Castle — a cliffside fortress in the wild country, destroyed in Roots of All Evil Pt. 2; the ruins were searched in TYT \"The Lone Alicorn\" and later collapsed entirely",
+        "bearing": "SW–S, working estimate (alternative: W, beyond Bridlewood); Low-confidence inference",
+        "band": "remote",
+        "confidence": "Low"
+      }
+    },
+    {
+      "order": 52,
+      "slug": "diamond-tiara",
+      "name": "Diamond Tiara",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "School Socialite / Reputation & Influence",
+      "responsibilities": [
+        "School Socialite / Reputation & Influence"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Ponyville — Rich family mansion",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 53,
+      "slug": "cheerilee",
+      "name": "Cheerilee",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Schoolteacher / Education & Community",
+      "responsibilities": [
+        "Schoolteacher / Education & Community"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Ponyville — schoolhouse",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 54,
+      "slug": "sunburst",
+      "name": "Sunburst",
+      "era": "G4",
+      "team_id": 4,
+      "team_label": "T4",
+      "role": "Royal Crystaller / Magic Research",
+      "responsibilities": [
+        "Royal Crystaller / Magic Research"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Crystal Empire — Crystal Castle",
+        "bearing": "NE / regional",
+        "band": "regional",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 55,
+      "slug": "marble-pie",
+      "name": "Marble Pie",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Pie Family / Quiet Support & Records",
+      "responsibilities": [
+        "Pie Family / Quiet Support & Records"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Rock Farm — Pie family home",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 56,
+      "slug": "maud-pie",
+      "name": "Maud Pie",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Geologist / Rock & Terrain Analysis",
+      "responsibilities": [
+        "Geologist / Rock & Terrain Analysis"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Rock Farm / Ponyville — visits",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 57,
+      "slug": "silver-spoon",
+      "name": "Silver Spoon",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "School Socialite / Etiquette & Access",
+      "responsibilities": [
+        "School Socialite / Etiquette & Access"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Ponyville — upper-class household",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 58,
+      "slug": "braeburn",
+      "name": "Braeburn",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Apple Family Cousin / Frontier Liaison",
+      "responsibilities": [
+        "Apple Family Cousin / Frontier Liaison"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Appleloosa — Apple family orchard",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 59,
+      "slug": "bright-mac",
+      "name": "Bright Mac",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Apple Family Elder / Orchard Traditions",
+      "responsibilities": [
+        "Apple Family Elder / Orchard Traditions"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Sweet Apple Acres — family history",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 60,
+      "slug": "limestone-pie",
+      "name": "Limestone Pie",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Rock Farm Foreman / Logistics",
+      "responsibilities": [
+        "Rock Farm Foreman / Logistics"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Rock Farm — Pie family home",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 61,
+      "slug": "moondancer",
+      "name": "Moondancer",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Canterlot Scholar / Research & Archives",
+      "responsibilities": [
+        "Canterlot Scholar / Research & Archives"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Canterlot — apartment and archives",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 62,
+      "slug": "granny-smith",
+      "name": "Granny Smith",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Apple Matriarch / Wisdom & History",
+      "responsibilities": [
+        "Apple Matriarch / Wisdom & History"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Sweet Apple Acres — farmhouse",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 63,
+      "slug": "babs-seed",
+      "name": "Babs Seed",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Cutie Mark Crusaders Ally / Manehattan Liaison",
+      "responsibilities": [
+        "Cutie Mark Crusaders Ally / Manehattan Liaison"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Manehattan — Apple family branch",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 64,
+      "slug": "twilight-velvet",
+      "name": "Twilight Velvet",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Author / Narrative & Media",
+      "responsibilities": [
+        "Author / Narrative & Media"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Canterlot — family home",
+        "bearing": "NE / regional",
+        "band": "regional",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 65,
+      "slug": "night-light",
+      "name": "Night Light",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Royal Family / Logistics & Support",
+      "responsibilities": [
+        "Royal Family / Logistics & Support"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Canterlot — family home",
+        "bearing": "NE / regional",
+        "band": "regional",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 66,
+      "slug": "thorax",
+      "name": "Thorax",
+      "era": "G4",
+      "team_id": 3,
+      "team_label": "T3",
+      "role": "Reformed Changeling Leader / Alliance",
+      "responsibilities": [
+        "Reformed Changeling Leader / Alliance"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Changeling Hive / Crystal Empire",
+        "bearing": "NE / regional",
+        "band": "regional",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 67,
+      "slug": "mrs-cup-cake",
+      "name": "Mrs. Cup Cake",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Sugarcube Corner / Hospitality",
+      "responsibilities": [
+        "Sugarcube Corner / Hospitality"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Ponyville — Sugarcube Corner",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 68,
+      "slug": "sugar-belle",
+      "name": "Sugar Belle",
+      "era": "G4",
+      "team_id": 2,
+      "team_label": "T2",
+      "role": "Baker / Community Provisions",
+      "responsibilities": [
+        "Baker / Community Provisions"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Our Town / Ponyville",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 69,
+      "slug": "star-swirl-the-bearded",
+      "name": "Star Swirl the Bearded",
+      "era": "G4",
+      "team_id": 0,
+      "team_label": "T0",
+      "role": "Ancient Archmage / Magical History",
+      "responsibilities": [
+        "Ancient Archmage / Magical History"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Canterlot / limbo (historical)",
+        "bearing": "NE / regional",
+        "band": "regional",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    },
+    {
+      "order": 70,
+      "slug": "luster-dawn",
+      "name": "Luster Dawn",
+      "era": "G4",
+      "team_id": 1,
+      "team_label": "T1",
+      "role": "Twilight's Student / New Generation",
+      "responsibilities": [
+        "Twilight's Student / New Generation"
+      ],
+      "secondary": [
+        "Added in the 19-character expansion"
+      ],
+      "is_team_captain": false,
+      "is_deputy": false,
+      "is_overall_candidate": false,
+      "candidate_no": null,
+      "original_number": null,
+      "location": {
+        "primary": "Canterlot — School of Magic",
+        "bearing": "origin (anchor town)",
+        "band": "adjacent",
+        "confidence": "Medium",
+        "source": "canon"
+      }
+    }
+  ]
+}
