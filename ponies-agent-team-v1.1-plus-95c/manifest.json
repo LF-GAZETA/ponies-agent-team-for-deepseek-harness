@@ -1,0 +1,363 @@
+{
+  "package": "ponies-agent-team-v1.1-plus-95c",
+  "project": "Ponies Agent Team",
+  "abbreviation": "P.A.T.",
+  "version": "1.1",
+  "variant": "95c",
+  "edition": "plus",
+  "description": "Ponies Agent Team (P.A.T.) plus edition — 95 complete MLP character profiles split into volume teams for AI roleplay sessions.",
+  "generated_by": {
+    "model": "deepseek-flash",
+    "framework": "DeepSeek Harness",
+    "generated_at": "2026-10-24 21:15:11 +0800"
+  },
+  "character_count": 95,
+  "series_counts": {
+    "G4/EQG": 84,
+    "G5": 11
+  },
+  "team_count": 7,
+  "base_language": "American English",
+  "language_patches": [
+    {
+      "id": 1,
+      "label": "简体中文 · 上海话",
+      "group": "Simplified Chinese",
+      "notes": "Simplified script, Shanghainese dialect flavour"
+    },
+    {
+      "id": 2,
+      "label": "简体中文 · 广东粤语",
+      "group": "Simplified Chinese",
+      "notes": "Simplified script, Cantonese (Guangdong) dialect flavour"
+    },
+    {
+      "id": 3,
+      "label": "简体中文 · 东北话",
+      "group": "Simplified Chinese",
+      "notes": "Simplified script, Northeastern Mandarin dialect flavour"
+    },
+    {
+      "id": 4,
+      "label": "简体中文 · 四川话",
+      "group": "Simplified Chinese",
+      "notes": "Simplified script, Sichuanese dialect flavour"
+    },
+    {
+      "id": 5,
+      "label": "简体中文 · 新疆话",
+      "group": "Simplified Chinese",
+      "notes": "Simplified script, Xinjiang Mandarin dialect flavour"
+    },
+    {
+      "id": 6,
+      "label": "简体中文 · 普通话",
+      "group": "Simplified Chinese",
+      "notes": "Simplified script, Standard Mandarin"
+    },
+    {
+      "id": 7,
+      "label": "繁体中文 · 港澳粤语",
+      "group": "Traditional Chinese",
+      "notes": "Traditional script, Cantonese (Hong Kong / Macau) dialect flavour"
+    },
+    {
+      "id": 8,
+      "label": "繁体中文 · 台湾话",
+      "group": "Traditional Chinese",
+      "notes": "Traditional script, Taiwanese Mandarin dialect flavour"
+    },
+    {
+      "id": 9,
+      "label": "英语 · 美式英语",
+      "group": "English",
+      "notes": "American English — master / base language"
+    },
+    {
+      "id": 10,
+      "label": "英语 · 英式英语",
+      "group": "English",
+      "notes": "British English"
+    },
+    {
+      "id": 11,
+      "label": "法语",
+      "group": "Other",
+      "notes": "French"
+    },
+    {
+      "id": 12,
+      "label": "德语",
+      "group": "Other",
+      "notes": "German"
+    },
+    {
+      "id": 13,
+      "label": "意大利语",
+      "group": "Other",
+      "notes": "Italian"
+    },
+    {
+      "id": 14,
+      "label": "西班牙语",
+      "group": "Other",
+      "notes": "Spanish"
+    },
+    {
+      "id": 15,
+      "label": "葡萄牙语",
+      "group": "Other",
+      "notes": "Portuguese"
+    },
+    {
+      "id": 16,
+      "label": "日语",
+      "group": "Other",
+      "notes": "Japanese"
+    },
+    {
+      "id": 17,
+      "label": "韩语",
+      "group": "Other",
+      "notes": "Korean"
+    },
+    {
+      "id": 18,
+      "label": "阿拉伯语",
+      "group": "Other",
+      "notes": "Arabic"
+    },
+    {
+      "id": 19,
+      "label": "希伯来语",
+      "group": "Other",
+      "notes": "Hebrew"
+    }
+  ],
+  "language_patch_count": 19,
+  "leads": [
+    "Princess Cadance",
+    "Princess Celestia (Daybreaker)",
+    "Princess Luna (Nightmare Moon)",
+    "Twilight Sparkle",
+    "Opaline Arcana",
+    "Sunny Starscout",
+    "Sunset Shimmer"
+  ],
+  "lead_count": 7,
+  "lead_spelling_note": "Canonical English spellings used; original request wrote 'Twilght Sparkle' (Twilight Sparkle) and 'Opalina Acrana' (Opaline Arcana).",
+  "random_assignment": {
+    "method": "random.SystemRandom() shuffle, unseeded (not reproducible by design)",
+    "note": "Team membership is fully random; teams are storage volumes, not canon groups."
+  },
+  "teams": {
+    "T0": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 14,
+        "G5": 0
+      },
+      "data_file": "data/T0.md",
+      "members": [
+        "Spike",
+        "Princess Flurry Heart",
+        "Rainbow Dash",
+        "Yona",
+        "Ocellus",
+        "Rarity",
+        "Granny Smith",
+        "Gallus",
+        "Lotus Blossom",
+        "King Sombra",
+        "Derpy Hooves",
+        "Apple Bloom",
+        "Fluttershy",
+        "Adagio Dazzle"
+      ]
+    },
+    "T1": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 12,
+        "G5": 2
+      },
+      "data_file": "data/T1.md",
+      "members": [
+        "Sprout Cloverleaf",
+        "Octavia Melody",
+        "Cloudpuff",
+        "Luster Dawn",
+        "Braeburn",
+        "Thorax",
+        "Vinyl Scratch",
+        "Coco Pommel",
+        "Applejack",
+        "Glorisa Daisy",
+        "Daring Do",
+        "Maud Pie",
+        "Cheerilee",
+        "Prince Blueblood"
+      ]
+    },
+    "T2": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 10,
+        "G5": 4
+      },
+      "data_file": "data/T2.md",
+      "members": [
+        "Discord",
+        "Rainbowshine",
+        "Flash Sentry",
+        "Zipp Storm",
+        "Aloe",
+        "Diamond Tiara",
+        "Izzy Moonbow",
+        "Blaize Skysong",
+        "Smolder",
+        "Juniper Montage",
+        "Short Fuse",
+        "Opalina Acrana",
+        "Suri Polomare",
+        "Princess Cadance"
+      ]
+    },
+    "T3": {
+      "count": 13,
+      "series_mix": {
+        "G4/EQG": 12,
+        "G5": 1
+      },
+      "data_file": "data/T3.md",
+      "members": [
+        "Soarin'",
+        "Bon Bon",
+        "Shoeshine",
+        "Babs Seed",
+        "Lyra Heartstrings",
+        "Lightning Dust",
+        "Night Light",
+        "Hitch Trailblazer",
+        "Scootaloo",
+        "Pear Butter",
+        "Sci-Twi (Midnight Sparkle)",
+        "Nurse Redheart",
+        "Shining Armor"
+      ]
+    },
+    "T4": {
+      "count": 14,
+      "series_mix": {
+        "G4/EQG": 13,
+        "G5": 1
+      },
+      "data_file": "data/T4.md",
+      "members": [
+        "Wallflower Blush",
+        "Moondancer",
+        "Sonata Dusk",
+        "Starlight Glimmer",
+        "Sunny Starscout",
+        "Star Swirl the Bearded",
+        "Twilight Velvet",
+        "Princess Ember",
+        "Aria Blaze",
+        "Cozy Glow",
+        "Sweetie Belle",
+        "Marble Pie",
+        "Radiant Hope",
+        "Zecora"
+      ]
+    },
+    "T5": {
+      "count": 13,
+      "series_mix": {
+        "G4/EQG": 13,
+        "G5": 0
+      },
+      "data_file": "data/T5.md",
+      "members": [
+        "Trixie",
+        "Twilight Sparkle",
+        "Limestone Pie",
+        "Tempest Shadow (Fizzlepop Berrytwist)",
+        "Bright Mac",
+        "Lemon Hearts",
+        "Minuette",
+        "Big Macintosh",
+        "Sunset Shimmer",
+        "Silverstream",
+        "Sugar Belle",
+        "Lord Tirek",
+        "Queen Chrysalis"
+      ]
+    },
+    "T6": {
+      "count": 13,
+      "series_mix": {
+        "G4/EQG": 10,
+        "G5": 3
+      },
+      "data_file": "data/T6.md",
+      "members": [
+        "Sunburst",
+        "Pipp Petals",
+        "Spitfire",
+        "Mayor Mare",
+        "Princess Luna (Nightmare Moon)",
+        "Stygian (Pony of Shadows)",
+        "Sparky Sparkeroni",
+        "Silver Spoon",
+        "Princess Celestia (Daybreaker)",
+        "Rolling Thunder",
+        "Doctor Whooves",
+        "Pinkie Pie",
+        "Misty Brightdawn"
+      ]
+    }
+  },
+  "data_format_fields": [
+    "Series/Continuity",
+    "Species/Kind",
+    "Gender",
+    "Age/Stage",
+    "Residence",
+    "Occupation/Role/Affiliation",
+    "Appearance",
+    "Personality",
+    "Likes",
+    "Dislikes",
+    "Fears/Weaknesses",
+    "Skills/Abilities",
+    "Family & Relationships",
+    "Background/Biography",
+    "Speech Style/Catchphrases",
+    "Notable Quotes",
+    "Trivia/Notes"
+  ],
+  "files": {
+    "README.md": "f42d9c381a9295a7711bdee1f031f64ab593e9c5184b95050b61fef7b5aa62c6",
+    "RUN.md": "ad1d79ffeb28899d9145424716efb7b5c1c8ad275fc4683be76de9e45a58a79c",
+    "TEAMS.md": "53e3bc1795331a64ad8b64bdee6595363da083fac2fafec1699af1e0afd001b4",
+    "assets/cover.png": "f20df62cf36e6238c72ff5aeeb163ead9c49ddd76980be29f6180c4f3bc2ca0d",
+    "data/T0.md": "e0805c9fd5a4e5c576a48b231e3c46b03ce017232e4421fde298ca6a7e54ec05",
+    "data/T1.md": "62487ceb6109b197a857214bdcd7926449fca0abc0f97e83a5f0910644067816",
+    "data/T2.md": "c41a40d426b263b1dea5104a3395534c7170a3c4cd38b3bb1e25a2c227ff6944",
+    "data/T3.md": "bf81b3574399aa7148e7d9ce39687d50fbe3b33a112c1aa1d73d85f0f4c7d885",
+    "data/T4.md": "7f23307b553041f9bc69c569457f5153bb12057ffba893aece519f377ada635c",
+    "data/T5.md": "b79acea2466ff1ea66cc7f6ebdce48865b0af4ba67d31ff95f5ab47d8866ac63",
+    "data/T6.md": "931fb6c33cecb712ec47ea365669d5cba2c33fbb4cc683e11c7cb02aadddeb6c"
+  },
+  "files_checksum_algorithm": "sha256",
+  "run_file": "RUN.md",
+  "readme": "README.md",
+  "teams_file": "TEAMS.md",
+  "verification_file": "VERIFICATION.md",
+  "notes": [
+    "Project name: Ponies Agent Team, abbreviated P.A.T. (packages: ponies-agent-team-v1.1-*).",
+    "RUN.md is the operator guide: language patch -> global Lead -> create volume members and verify -> brief close.",
+    "Never use the DSH Ask-Questions tool in the RUN.md flow; all prompts are plain chat text.",
+    "Language patches are runtime translations on top of the American-English master data; data files are never translated in place."
+  ]
+}
