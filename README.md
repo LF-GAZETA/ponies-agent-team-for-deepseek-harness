@@ -7,7 +7,6 @@
 
 ![version](https://img.shields.io/badge/version-1.0.1-blue)
 ![characters](https://img.shields.io/badge/characters-70-ff69b4)
-![teams](https://img.shields.io/badge/teams-T0%E2%80%93T6-9b59b6)
 ![languages](https://img.shields.io/badge/language%20editions-13-2ecc71)
 ![harness](https://img.shields.io/badge/for-DeepSeek%20Harness-black)
 
